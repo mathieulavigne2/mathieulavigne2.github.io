@@ -4,7 +4,7 @@ title: Teaching
 
 ## My courses
 
-**POLI 320: Issues in Canadian Democracy:** In the winter of 2023, I designed (from scratch) and taught my very first course, a third year undergraduate political science class at McGill University (77 students). Each week, we examined a different challenge to Canadian democracy, tried to understand its causes, and discussed available solutions. Issues covered included: political participation, democratic competence, the electoral system, representation, regionalism/regional discontent, the distribution of power, the changing media environment, data-driven campaigning, polarization, populism and trust, and mis- and disinformation. [Here](../Teaching/POLI320_W23.pdf) is the syllabus.
+**POLI 320: Issues in Canadian Democracy:** In the winter of 2023, I designed (from scratch) and taught my very first course, a third year undergraduate political science class at McGill University (77 students). Each week, we examined a different challenge to Canadian democracy, tried to understand its causes, and discussed available solutions. Issues covered included: political participation, democratic competence, the electoral system, representation, regionalism/regional discontent, the distribution of power, the changing media environment, data-driven campaigning, polarization, populism and trust, and mis- and disinformation. [Here](../Teaching/POLI320_W23.pdf){target="_blank"} is the syllabus.
 
 ## Guest lecturer
 
