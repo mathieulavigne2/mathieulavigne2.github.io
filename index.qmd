@@ -26,7 +26,9 @@ I am particularly interested in how the information citizens are exposed to shap
 My research has been published in *Party Politics*, the *Harvard Kennedy School (HKS) Misinformation Review*, and the *Elgar Encyclopedia of Technology and Politics*. I also am the co-author of multiple public facing reports. More information about my publications and ongoing research can be found [here](../Research/index.qmd).
 
 I have also provided commentary on the role of mis- and disinformation in Canada in French- and English-language media (radio, television, written), including: 
+
 **In English:** CBC, CTV, Global News, City News, The Canadian Press 
+
 **In French:** Radio-Canada, Le Devoir, 98.5FM, TVA Nouvelles/LCN, Le Journal de Montréal, and QUB Radio, among others. 
 
 </section>
