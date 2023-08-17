@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Gandalf</title>
+<title>Mathieu Lavigne</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,19 +17,19 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./img/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -54,7 +54,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -68,54 +69,43 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/logo.png" alt="" class="navbar-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Gandalf</span>
+    <span class="navbar-title">Mathieu Lavigne</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html">
- <span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="./About/index.html" rel="" target="">
+ <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./photography/index.html">
- <span class="menu-text">Photography</span></a>
+    <a class="nav-link" href="./Research/index.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv/index.html">
+    <a class="nav-link" href="./Teaching/index.html" rel="" target="">
+ <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Media/index.html" rel="" target="">
+ <span class="menu-text">In the news</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./CV/index.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/"><i class="bi bi-folder-symlink" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/MarvinSchmittML"><i class="bi bi-twitter" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/marvin-schmitt-a85b321a2/"><i class="bi bi-linkedin" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="mailto:mail.marvinschmitt@gmail.com"><i class="bi bi-envelope" role="img" aria-label="email">
-</i> 
- <span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./Français/index.html" rel="" target="">
+ <span class="menu-text">En français (SVP!)</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -126,51 +116,45 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-
-<div class="quarto-about-jolla">
-  <img src="img/my_image.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <div id="about-block">
-</div> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://twitter.com/MarvinSchmittML" class="about-link">
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="mathieu.png" class="about-image
+  rounded " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mathieu Lavigne</h1>
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header>
+    <div class="about-links">
+  <a href="https://twitter.com/MathieuLavigne3" class="about-link" rel="" target="">
     <i class="bi bi-twitter"></i>
      <span class="about-link-text">Twitter</span>
   </a>
-  <a href="https://github.com/marvinschmitt" class="about-link">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
+  <a href="https://scholar.google.com/citations?user=LZylY84AAAAJ&amp;hl=fr&amp;oi=ao" class="about-link" rel="" target="">
+    <i class="bi bi-google"></i>
+     <span class="about-link-text">Scholar</span>
   </a>
-  <a href="https://www.linkedin.com/in/marvin-schmitt-a85b321a2/" class="about-link">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="mailto:mail.marvinschmitt@gmail.com" class="about-link">
+  <a href="mailto:mathieu.lavigne@mail.mcgill.ca" class="about-link" rel="" target="">
     <i class="bi bi-envelope"></i>
      <span class="about-link-text">Email</span>
   </a>
 </div>
-</div>
-
-<section id="welcome-to-my-website" class="level1">
-<h1>Welcome to my website!</h1>
-<p>I am Gandalf the White, a renowned wizard and scholar of Middle-earth. Over the centuries, I have dedicated my life to studying the history, languages, and cultures of the peoples of Middle-earth. On this website, I offer a glimpse into my vast body of knowledge, ongoing research, and publications.</p>
-<p>My research interests span the entirety of Middle-earth, from the distant past to the present day. I am particularly passionate about the languages and mythologies of the Elves, Dwarves, and Men, and I have made significant contributions to the understanding of these subjects. My studies of the natural world have also been extensive, and I am an expert in the flora and fauna of Middle-earth. Additionally, I have been involved in many important historical events and offer valuable first-hand accounts and insights on the past.</p>
-<p>Not only am I a scholar, but I am also a mentor and teacher. Over the centuries, I have had the honor of working with many young wizards, passing on my knowledge and experience to the next generation. I have a particular interest in the education of hobbits, whom I see as having great potential despite their small size and simple lifestyle. My teaching style is engaging and accessible, and I encourage my students to think critically and creatively.</p>
-<p>On this website, you will find a selection of my published works, including scholarly articles, monographs, and translations. You will also find news and updates on my current research projects, as well as information on upcoming events and conferences where I will be speaking. I invite you to explore my website and learn more about my life’s work as one of Middle-earth’s greatest scholars and thinkers. Please feel free to <a href="mailto:mail.marvinschmitt@gmail.com">contact me</a> if you have any questions or would like to discuss potential projects.</p>
-<div style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a>
-</div>
-
-
-
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+<section class="about">
+<p>Welcome!</p>
+<p>I am a Ph.D.&nbsp;candidate in <a href="https://www.mcgill.ca/politicalscience/">Political Science</a> at McGill University. I am affiliated with the <a href="https://csdc-cecd.ca/">Centre for the Study of Democratic Citizenship</a>, the <a href="https://www.mediatechdemocracy.com/">Centre for Media, Technology, and Democracy</a>, and the <a href="https://www.mediaecosystemobservatory.com/">Media Ecosystem Observatory</a>. I specialize in political communication, political behavior, public opinion, and Canadian politics.</p>
+<p>I am particularly interested in how the information citizens are exposed to shapes their attitudes and behaviors. I have mainly conducted research on mis- and disinformation, political microtargeting, the information environnment, perceptions of election integrity, trust, and political polarization. In my research, I rely on a variety of methods, including observational and experimental survey methods, social media analysis, and content analysis (using dictionary-based approaches and manual coding).</p>
+<p>My research has been published in <em>Party Politics</em>, the <em>Harvard Kennedy School (HKS) Misinformation Review</em>, and the <em>Elgar Encyclopedia of Technology and Politics</em>. I also am the co-author of multiple public facing reports. More information about my publications and ongoing research can be found <a href="../Research/index.qmd">here</a>.</p>
+<p>I have also provided commentary on the role of mis- and disinformation in Canada in French- and English-language media (radio, television, written), including: <strong>In English:</strong> CBC, CTV, Global News, City News, The Canadian Press <strong>In French:</strong> Radio-Canada, Le Devoir, 98.5FM, TVA Nouvelles/LCN, Le Journal de Montréal, and QUB Radio, among others.</p>
 </section>
 
-</main> <!-- /main -->
+
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -191,9 +175,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -258,6 +256,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -300,9 +384,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><span class="faux-block">© 2023 Marvin Schmitt CC BY-SA 4.0</span></div>   
-      <div class="nav-footer-center"><span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span></div>
-    <div class="nav-footer-right"><span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span></div>
+    <div class="nav-footer-left"><span class="faux-block">© 2023 Mathieu Lavigne CC BY-SA 4.0</span></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 

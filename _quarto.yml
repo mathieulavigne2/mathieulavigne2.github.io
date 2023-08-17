@@ -8,8 +8,6 @@ website:
   
   # start of the navigation bar at the top of the website
   navbar:
-    pinned: true
-    
     # your sub-pages
     left:
       - text: "About me"

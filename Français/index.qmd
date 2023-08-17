@@ -1,21 +1,18 @@
 ---
-title: Mathieu Lavigne
----
-
+title: "Mathieu Lavigne (FR)"
 about:
   template: trestles
-  image: mathieu.jpg
+  image: mathieu.png
   links:
     - icon: twitter
-        text: Twitter (X)
-        href: https://twitter.com/MathieuLavigne3
+      text: Twitter
+      href: https://twitter.com/MathieuLavigne3
     - icon: google
-        text: Scholar
-        href: https://scholar.google.com/citations?user=LZylY84AAAAJ&hl=fr&oi=ao 
+      text: Scholar
+      href: https://scholar.google.com/citations?user=LZylY84AAAAJ&hl=fr&oi=ao
     - icon: envelope
-        aria-label: email
-        href: "mailto:mathieu.lavigne@mail.mcgill.ca"  
-
+      text: Email
+      href: "mailto:mathieu.lavigne@mail.mcgill.ca"
 ---
 
 <section class="about">
@@ -26,10 +23,16 @@ Je suis candidat au doctorat en [science politique](https://www.mcgill.ca/politi
 
 Je suis particulièrement intéressé par comment l'information à laquelle les citoyens sont exposés influence leurs attitudes et comportements. Je conduis principalement de la recherche sur la désinformation, le micro-ciblage politique, l'environnement d'information, les perceptions de l'intégrité électorale, la confiance et la polarisation politique. Dans ma recherche, j'utilise une variété de méthodes, incluant des techniques de sondage (observationnelles et expérimentales), des analyses de données de médias sociaux et des analyses de contenu (approches par dictionnaires et codage manuel). 
 
-Ma recherche a été publiée dans *(Party Politics)*, le *(Harvard Kennedy School (HKS) Misinformation Review)* et le *(Elgar Encyclopedia of Technology and Politics)*. Je suis aussi co-auteur de plusieurs rapports de recherche. Vous trouverez [ici](../Research/index.qmd) plus d'information sur mes publications et mes projets de recherche en cours.
+Ma recherche a été publiée dans *Party Politics*, le *Harvard Kennedy School (HKS) Misinformation Review* et le *Elgar Encyclopedia of Technology and Politics*. Je suis aussi co-auteur de plusieurs rapports de recherche. Vous trouverez [ici](../Research/index.qmd) plus d'information sur mes publications et mes projets de recherche en cours.
 
 J'ai eu la chance de monter (à partir de zéro) et d'enseigner mon premier cours à l'Université McGill à l'hiver 2023. Il s'agit d'un cours de troisième année de baccalauréat (77 étudiants) portant sur les enjeux démocratiques au Canada (POLI 320: Issues in Canadian Democracy). Nous avons eu l'occasion, chaque semaine, d'examiner un défi auquel la démocratie canadienne est confrontée, d'essayer de comprendre ses causes et de discuter des solutions potentielles. Les enjeux examinés incluent: la participation politique, la compétence démocratique, le système électoral, la représentation, le régionalisme (ou mécontentement régional), la distribution du pouvoir au parlement et au sein du gouvernement, les transformations de l'environnement médiatique, l'évolution des campagnes électorales, la polarisation, le populisme et la confiance et la désinformation. Le syllabus (en anglais) se trouve [ici](../Teaching/POLI320_W23.pdf).
 
-En tant que chercheur dont la recherche est financé par de l'argent publique, je crois qu'il est de ma responsabilité de rendre ma recherche accessible pour les décideurs publics et le public. J'essaie de le faire par l'entremise de rapports de recherche, en organisant ou en prenant part à des événements ouverts au public ou en participant à des entrevues médiatiques en français et en anglais. J'ai participé à plusieurs entrevues sur le rôle de la mésinformation au Canada avec les principaux médias canadiens, incluant, entre autres, **(en français:)** Radio-Canada, Le Devoir, 98.5 FM, TVA Nouvelles/LCN, Le Journal de Montréal et QUB Radio et **(en anglais:)** CBC, CTV, Global News, City News et The Canadian Press. Une sélection d'entrevues est disponible [ici](../Media/index.qmd).
+En tant que chercheur dont la recherche est financé par de l'argent publique, je crois qu'il est de ma responsabilité de rendre ma recherche accessible pour les décideurs publics et le public. J'essaie de le faire par l'entremise de rapports de recherche, en organisant ou en prenant part à des événements ouverts au public ou en participant à des entrevues médiatiques en français et en anglais. J'ai participé à plusieurs entrevues sur le rôle de la mésinformation au Canada avec les principaux médias canadiens, incluant entre autres: 
+
+**En français:** Radio-Canada, Le Devoir, 98.5 FM, TVA Nouvelles/LCN, Le Journal de Montréal et QUB Radio 
+
+**En anglais:** CBC, CTV, Global News, City News et The Canadian Press. 
+
+Une sélection d'entrevues est disponible [ici](../Media/index.qmd).
 
 </section>

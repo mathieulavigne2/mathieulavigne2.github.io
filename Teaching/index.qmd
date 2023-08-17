@@ -4,22 +4,22 @@ title: Teaching
 
 ## My courses
 
-**(POLI 320: Issues in Canadian Democracy:)** In the winter of 2023, I designed (from scratch) and taught my very first course, a third year undergraduate political science class at McGill University (77 students). Each week, we examined a different challenge to Canadian democracy, tried to understand its causes, and discussed available solutions. Issues covered included: political participation, democratic competence, the electoral system, representation, regionalism/regional discontent, the distribution of power, the changing media environment, data-driven campaigning, polarization, populism and trust, and mis- and disinformation. [Here](../Teaching/POLI320_W23.pdf) is the syllabus.
+**POLI 320: Issues in Canadian Democracy:** In the winter of 2023, I designed (from scratch) and taught my very first course, a third year undergraduate political science class at McGill University (77 students). Each week, we examined a different challenge to Canadian democracy, tried to understand its causes, and discussed available solutions. Issues covered included: political participation, democratic competence, the electoral system, representation, regionalism/regional discontent, the distribution of power, the changing media environment, data-driven campaigning, polarization, populism and trust, and mis- and disinformation. [Here](../Teaching/POLI320_W23.pdf) is the syllabus.
 
 ## Guest lecturer
 
-Invited by Mireille Lalancette (UQTR) to give a class on mis- and disinformation in her graduate-level *(Political Communication)* (COM6036: Communication politique et analyse des messages médiatisés) seminar.
+Invited by Mireille Lalancette (UQTR) to give a class on mis- and disinformation in her graduate-level *Political Communication* (COM6036: Communication politique et analyse des messages médiatisés) seminar.
 
 ## Teaching assistant
 
-**(POLI 618: Quantitative Analysis:)** Graduate-level seminar on quantitative methods at McGill University (Prof. Aaron Erlich). Responsible for teaching a lab each week, grading assignments, and answering students' questions (by mail and during my office hours).
+**POLI 618: Quantitative Analysis:** Graduate-level seminar on quantitative methods at McGill University (Prof. Aaron Erlich). Responsible for teaching a lab each week, grading assignments, and answering students' questions (by mail and during my office hours).
 
-**(Computing and Math Summer Camp)** Intensive R workshop for graduate-level students.
+**Computing and Math Summer Camp** Intensive R workshop for graduate-level students.
 
-**(CEP 1000: Fondements politiques de la communication politique (Political Communication):)** Introductory political communication course at Université de Montréal (Prof. Frédérick Bastien). Responsible for grading assignments and answering students' questions (by mail and during my office hours). 
+**CEP 1000: Fondements politiques de la communication politique (Political Communication):** Introductory political communication course at Université de Montréal (Prof. Frédérick Bastien). Responsible for grading assignments and answering students' questions (by mail and during my office hours). 
 
 ## Grader:
 
-**(POLI 426: Political Parties and Electoral Behavior in Quebec:)** Undergraduate political science course at McGill University (Prof. Éric Bélanger). 
+**POLI 426: Political Parties and Electoral Behavior in Quebec:** Undergraduate political science course at McGill University (Prof. Éric Bélanger). 
 
 

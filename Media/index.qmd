@@ -2,7 +2,7 @@
 title: Media
 ---
 
-As a scholar whose research is supported by public money, I believe that it is my responsibility to make my research accessible to decision-makers and the general public. I try to do that by publishing public facing reports, organizing or participating in events that are open to the general public, and participating in media interviews in both French and English. 
+As a scholar whose research is supported by public money, I believe that it is my responsibility to make my research accessible to decision-makers and the general public. I try to do that by publishing public facing reports, organizing and participating in events that are open to the general public, and participating in media interviews in both French and English. 
 
 ::: {layout-ncol=1}
 
