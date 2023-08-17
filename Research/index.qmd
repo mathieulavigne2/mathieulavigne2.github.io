@@ -1,0 +1,42 @@
+---
+title: Research
+---
+
+You can also find my research on my [Google Scholar](https://scholar.google.com/citations?user=LZylY84AAAAJ&hl=fr&oi=ao) profile.
+
+## Peer-reviewed articles
+
+**(Lavigne, Mathieu)**, Éric Bélanger, Richard Nadeau, Jean-François Daoust, and Erick Lachapelle. 2022. [Hide and seek: The connection between false beliefs and perceptions of government transparency]((https://misinforeview.hks.harvard.edu/wp-content/uploads/2022/03/lavigne_hide_and_seek_false_beliefs_government_transparency_20220316.pdf)). *(Harvard Kennedy School (HKS) Misinformation Review)*. [Replication files](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/3CE9GA) 
+
+**(Lavigne, Mathieu)**. 2021. [Strengthening ties: The influence of microtargeting on partisan attitudes and the vote](https://doi.org/10.1177/1354068820918387). *(Party Politics)* 
+
+## Book chapters/Encyclopedia entries
+
+**(Lavigne, Mathieu)**. 2022. [Microtargeting](https://www.elgaronline.com/edcollchap/book/9781800374263/b-9781800374263.microtargeting.lavigne.xml). In Andrea Ceron (Ed.). *(Elgar Encyclopedia of Technology and Politics)*. 
+
+## Research reports
+
+**(Lavigne, Mathieu)**, Maxime Blanchard, Anne Imouza, Aengus Bridgman, Chloé Staller, Kaligirwa Namahoro, Ella Noel, Catherine Perron, Phaedra de Saint-Rome, and Taylor Owen. 2023. [Analyse du rôle de la mésinformation lors de l'élection provinciale québécoise de 2022](https://osf.io/wam45). Centre for Media, Technology, and Democracy. 
+
+Bridgman, Aengus, **(Mathieu Lavigne)**, Melissa Baker, Thomas Bergeron, Danielle Bohonos, Anthony Burton, Katharine McCoy, Mackenzie Hart, Robert Hiltz, Mathieu Lavault, Ruppinder Liddar, Pangying Peng, Adelina Petit-Vouriot, Christopher Ross, Phaedra de Saint-Rome, Jaclyn Victor, Taylor Owen, and Peter Loewen. 2022. [Mis- and disinformation during the 2021 Canadian federal election](https://www.mcgill.ca/maxbellschool/files/maxbellschool/meo_election_2021_report.pdf). Media Ecosystem Observatory. 
+
+Ruiz-Soler, Javier, **(Mathieu Lavigne)**, Colette Brin, and Aengus Bridgman. [Disinformation Risk Assessment: The Online News Market in Canada](https://www.disinformationindex.org/country-studies/2021-9-30-the-online-news-market-in-canada/). Global Disinformation Index. ([Aussi disponible en français](https://www.disinformationindex.org/country-studies/2021-9-30-the-online-news-market-in-canada/))
+
+## Working papers
+
+[1] **(Lavigne, Mathieu)** and Éric Bélanger. The Case for Issue-Based Affective Polarization: Examining COVID-19 and Climate Change Affects.
+
+[2] **(Lavigne, Mathieu)**. Understanding the Demand Side: Who Is Ready to Tolerate the Spread of Misinformation?
+
+[2] **(Lavigne, Mathieu)** and Aengus Bridgman. Une barrière linguistique? How Language Influences the Spread of U.S.-Based COVID-19 Misinformation.
+
+[4] **(Lavigne, Mathieu)**. Fake, Frequent, Harmful: Unpacking and Explaining the Citizen View of Misinformation.
+
+[5] **(Lavigne, Mathieu)**. L'inconfort ou l'indifférence ? Comprendre l'appui aux mesures visant à contrer la mésinformation au Québec. 
+
+[6] Bridgman, Aengus and **(Mathieu Lavigne)**. Reach, Perceived Accuracy, and Engagement With Real and Fake Stories During the 2021 Canadian Federal Election.
+
+[7] **(Lavigne, Mathieu)**, Aengus Bridgman, and Holly Ann Garnett. The Contagion of Electoral Disinformation Campaigns: American Style Vote Conspiracies in the 2021 Canadian Federal Election.
+
+
+

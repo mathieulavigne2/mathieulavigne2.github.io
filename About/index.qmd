@@ -1,0 +1,31 @@
+---
+title: "Mathieu Lavigne"
+about:
+  template: trestles
+  image: mathieu.jpg
+  links:
+    - icon: twitter
+        text: Twitter (X)
+        href: https://twitter.com/MathieuLavigne3
+    - icon: google
+        text: Scholar
+        href: https://scholar.google.com/citations?user=LZylY84AAAAJ&hl=fr&oi=ao 
+    - icon: envelope
+        aria-label: email
+        href: "mailto:mathieu.lavigne@mail.mcgill.ca"  
+
+---
+
+<section class="about">
+
+Welcome! 
+
+I am a Ph.D. candidate in [Political Science](https://www.mcgill.ca/politicalscience/) at McGill University. I am affiliated with the [Centre for the Study of Democratic Citizenship](https://csdc-cecd.ca/), the [Centre for Media, Technology, and Democracy](https://www.mediatechdemocracy.com/), and the [Media Ecosystem Observatory](https://www.mediaecosystemobservatory.com/). I specialize in political communication, political behavior, public opinion, and Canadian politics. 
+
+I am particularly interested in how the information citizens are exposed to shapes their attitudes and behaviors. I have mainly conducted research on mis- and disinformation, political microtargeting, the information environnment, perceptions of election integrity, trust, and political polarization. In my research, I rely on a variety of methods, including observational and experimental survey methods, social media analysis, and content analysis (using dictionary-based approaches and manual coding). 
+
+My research has been published in *(Party Politics)*, the *(Harvard Kennedy School (HKS) Misinformation Review)*, and the *(Elgar Encyclopedia of Technology and Politics)*. I also am the co-author of multiple public facing reports. More information about my publications and ongoing research can be found [here](../Research/index.qmd).
+
+I have also provided commentary on the role of mis- and disinformation in Canada in French- and English-language media (radio, television, written), including **(In English:)** CBC, CTV, Global News, City News, The Canadian Press **(In French:)** Radio-Canada, Le Devoir, 98.5FM, TVA Nouvelles/LCN, Le Journal de Montréal, and QUB Radio, among others. 
+
+</section>
