@@ -24,19 +24,20 @@ Ruiz-Soler, Javier, **Mathieu Lavigne**, Colette Brin, and Aengus Bridgman. [Dis
 
 ## Working papers
 
-[1] **Lavigne, Mathieu** and Éric Bélanger. The Case for Issue-Based Affective Polarization: Examining COVID-19 and Climate Change Affects.
+[1] **Lavigne, Mathieu** and Éric Bélanger. The Case for Issue-Based Affective Polarization: Examining COVID-19 and Climate Change Affects. Under review.
 
 [2] **Lavigne, Mathieu**. Understanding the Demand Side: Who Is Ready to Tolerate the Spread of Misinformation?
 
-[2] **Lavigne, Mathieu** and Aengus Bridgman. Une barrière linguistique? How Language Influences the Spread of U.S.-Based COVID-19 Misinformation.
+[3] **Lavigne, Mathieu**. L'inconfort ou l'indifférence ? Comprendre l'appui aux mesures visant à contrer la mésinformation au Québec.
 
-[4] **Lavigne, Mathieu**. Fake, Frequent, Harmful: Unpacking and Explaining the Citizen View of Misinformation.
+[4] **Lavigne, Mathieu** and Aengus Bridgman. Une barrière linguistique? How Language Influences the Spread of U.S.-Based COVID-19 Misinformation.
 
-[5] **Lavigne, Mathieu**. L'inconfort ou l'indifférence ? Comprendre l'appui aux mesures visant à contrer la mésinformation au Québec. 
+[5] **Lavigne, Mathieu**. Fake, Frequent, Harmful: Unpacking and Explaining the Citizen View of Misinformation.
 
 [6] Bridgman, Aengus and **Mathieu Lavigne**. Reach, Perceived Accuracy, and Engagement With Real and Fake Stories During the 2021 Canadian Federal Election.
 
 [7] **Lavigne, Mathieu**, Aengus Bridgman, and Holly Ann Garnett. The Contagion of Electoral Disinformation Campaigns: American Style Vote Conspiracies in the 2021 Canadian Federal Election.
 
+## Forthcoming public report
 
-
+Brin, Colette, Sébastien Charlton, Erika Bisaillon, Pascaline David et **(Lavigne, Mathieu)**. 2023. Analyse de la désinformation dans la couverture journalistique de la campagne électorale au Québec (2022). Centre d'études sur les médias. 
