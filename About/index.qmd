@@ -19,7 +19,7 @@ about:
 
 Welcome! 
 
-I am a Ph.D. candidate in [Political Science](https://www.mcgill.ca/politicalscience/) at McGill University. I am affiliated with the [Centre for the Study of Democratic Citizenship](https://csdc-cecd.ca/){target="_blank"}, the [Centre for Media, Technology, and Democracy](https://www.mediatechdemocracy.com/){target="_blank"}, and the [Media Ecosystem Observatory](https://www.mediaecosystemobservatory.com/){target="_blank"}. I specialize in political communication, political behavior, public opinion, and Canadian politics. 
+I am a Ph.D. candidate in [Political Science](https://www.mcgill.ca/politicalscience/) at McGill University and, starting on November 1st, a SSHRC postdoctoral fellow in the [Program in Quantitative Social Science](https://qss.dartmouth.edu/) at Dartmouth College. I am affiliated with the [Centre for the Study of Democratic Citizenship](https://csdc-cecd.ca/){target="_blank"}, the [Centre for Media, Technology, and Democracy](https://www.mediatechdemocracy.com/){target="_blank"}, and the [Media Ecosystem Observatory](https://www.mediaecosystemobservatory.com/){target="_blank"}. I specialize in political communication, political behavior, public opinion, Canadian politics, and quantitative methods. 
 
 I am particularly interested in how the information citizens are exposed to shapes their attitudes and behaviors. I have mainly conducted research on mis- and disinformation, political microtargeting, the information environnment, perceptions of election integrity, trust, and political polarization. In my research, I rely on a variety of methods, including observational and experimental survey methods, social media analysis, and content analysis (using dictionary-based approaches and manual coding). 
 
