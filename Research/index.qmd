@@ -6,11 +6,15 @@ You can also find my research on my [Google Scholar](https://scholar.google.com/
 
 ## Peer-reviewed articles
 
+**Lavigne, Mathieu**. 2024. L’inconfort ou l’indifférence ? Comprendre l’opposition aux mesures visant à contrer la mésinformation au Québec. *Canadian Journal of Political Science / Revue canadienne de science politique*. In Press. 
+
 **Lavigne, Mathieu**, Éric Bélanger, Richard Nadeau, Jean-François Daoust, and Erick Lachapelle. 2022. [Hide and seek: The connection between false beliefs and perceptions of government transparency](https://misinforeview.hks.harvard.edu/article/hide-and-seek-the-connection-between-false-beliefs-and-perceptions-of-government-transparency/){target="_blank"}. *Harvard Kennedy School (HKS) Misinformation Review*. [Replication files](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/3CE9GA){target="_blank"} 
 
 **Lavigne, Mathieu**. 2021. [Strengthening ties: The influence of microtargeting on partisan attitudes and the vote](https://doi.org/10.1177/1354068820918387){target="_blank"}. *Party Politics* 
 
 ## Book chapters/Encyclopedia entries
+
+**Lavigne, Mathieu**. 2024. [Polarisation affective: Comprendre nos différences pour apaiser nos différends]. Dans [*L'état du Québec 2025. Sommes-nous une société émotive ?*](https://inm.qc.ca/produit/letat-du-quebec-2025/){target="_blank"}. Sous la direction de Josselyn Guillarmou et Sandra Larochelle. Montréal : INM - Somme toute / Le Devoir, pp. 42-52.
 
 **Lavigne, Mathieu**. 2022. [Microtargeting](https://www.elgaronline.com/edcollchap/book/9781800374263/b-9781800374263.microtargeting.lavigne.xml){target="_blank"}. In Andrea Ceron (Ed.). *Elgar Encyclopedia of Technology and Politics*. 
 
@@ -24,16 +28,18 @@ Ruiz-Soler, Javier, **Mathieu Lavigne**, Colette Brin, and Aengus Bridgman. [Dis
 
 ## Working papers
 
-[1] **Lavigne, Mathieu** and Éric Bélanger. The Case for Issue-Based Affective Polarization: Examining COVID-19 and Climate Change Affects. 
+[1] **Lavigne, Mathieu**. Fake, Frequent, Harmful: Unpacking and Explaining the Citizen View of Misinformation. Under review. 
 
-[2] **Lavigne, Mathieu**. Understanding the Demand Side: Who Is Ready to Tolerate the Spread of Misinformation?
+[2] **Lavigne, Mathieu**. Understanding the Demand Side: Who Tolerates the Spread of Misinformation? Under review.
 
-[3] **Lavigne, Mathieu**. L'inconfort ou l'indifférence ? Comprendre l'appui aux mesures visant à contrer la mésinformation au Québec.
+[3] **Lavigne, Mathieu** and Éric Bélanger. The Origin, Prevalence, and Consequences of Issue-Based Affective Polarization: Examining COVID-19 and Climate Change Affects.
 
-[4] **Lavigne, Mathieu** and Aengus Bridgman. Une barrière linguistique? How Language Influences the Spread of U.S.-Based COVID-19 Misinformation.
+[4] **Lavigne, Mathieu**, John Carey, Brian Fogarty, Brendan Nyhan, and Jason Reifler. Correction Mismatch: How Inattention and Selective Exposure Limit the Effects of Voter Fraud Debunking.
 
-[5] **Lavigne, Mathieu**. Fake, Frequent, Harmful: Unpacking and Explaining the Citizen View of Misinformation.
+[5] **Lavigne, Mathieu** and Aengus Bridgman. Une barrière linguistique? How Language Influences the Spread of U.S.-Based COVID-19 Misinformation.
 
-[6] Bridgman, Aengus and **Mathieu Lavigne**. Reach, Perceived Accuracy, and Engagement With Real and Fake Stories During the 2021 Canadian Federal Election.
+[6] **Lavigne, Mathieu**, Holly Ann Garnett, and Aengus Bridgman. Misinformation, Polarization, and Trust in Elections: Longitudinal Evidence from Canada.
 
-[7] **Lavigne, Mathieu**, Aengus Bridgman, and Holly Ann Garnett. The Contagion of Electoral Disinformation Campaigns: American Style Vote Conspiracies in the 2021 Canadian Federal Election.
+[7] Bridgman, Aengus and **Mathieu Lavigne**. Reach, Perceived Accuracy, and Engagement With Real and Fake Stories During the 2021 Canadian Federal Election.
+
+
