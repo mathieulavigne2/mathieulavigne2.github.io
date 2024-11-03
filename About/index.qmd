@@ -19,8 +19,6 @@ about:
 
 Welcome! 
 
-Welcome! 
-
 I am a SSHRC postdoctoral fellow in the [Program in Quantitative Social Science](https://qss.dartmouth.edu/) at Dartmouth College. I completed, in fall 2023, a Ph.D. in [Political Science](https://www.mcgill.ca/politicalscience/){target="_blank"} at McGill University. I specialize in political communication, political behavior, public opinion, Canadian politics, and quantitative methods. 
 
 I am particularly interested in how the information citizens are exposed to shapes their attitudes and behaviors. I have mainly conducted research on mis- and disinformation, political microtargeting, the information environment, perceptions of election integrity, trust, and political polarization. My research builds on a broad range of data, including observational and experimental survey data, news content, web browsing data, and social media data.
