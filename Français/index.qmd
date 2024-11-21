@@ -7,6 +7,9 @@ about:
     - icon: twitter
       text: Twitter
       href: https://twitter.com/MathieuLavigne3
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/mathieulavigne.bsky.social
     - icon: google
       text: Scholar
       href: https://scholar.google.com/citations?user=LZylY84AAAAJ&hl=fr&oi=ao
@@ -19,7 +22,7 @@ about:
 
 Bonjour !
 
-Je suis un chercheur postdoctoral (financé par le CRSH) affilié au [Program in Quantitative Social Science](https://qss.dartmouth.edu/) à Dartmouth College. J'ai complété, à l'automne 2023, mon doctorat en [science politique](https://www.mcgill.ca/politicalscience/){target="_blank"} à l'Université McGill. Je me spécialise dans l'étude de la communication politique, des comportements politiques, de l'opinion publique, de la politique canadienne et des méthodologies quantitatives. 
+Je suis un chercheur postdoctoral (financé par le CRSH) affilié au [Program in Quantitative Social Science](https://qss.dartmouth.edu/) à Dartmouth College. Je suis détenteur d'un doctorat en [science politique](https://www.mcgill.ca/politicalscience/){target="_blank"} de l'Université McGill. Je me spécialise dans l'étude de la communication politique, des comportements politiques, de l'opinion publique, de la politique canadienne et des méthodologies quantitatives. 
 
 Je m'intéresse principalement aux types d'information auxquels les citoyens sont exposés et à la manière dont celle-ci influence leurs attitudes et comportements politiques. Ma recherche porte notamment sur la désinformation, le micro-ciblage politique, l'environnement d'information, les perceptions de l'intégrité électorale, la confiance et la polarisation politique. Dans ma recherche, j'utilise une variété de méthodes, incluant des techniques de sondage (observationnelles et expérimentales), des analyses de données de navigation et de médias sociaux et des analyses de contenu. 
 
@@ -29,7 +32,7 @@ J'ai eu la chance de monter (à partir de zéro) et d'enseigner, à l'hiver 2023
 
 En tant que chercheur dont la recherche est financé par de l'argent publique, je crois qu'il est de ma responsabilité de rendre ma recherche accessible pour les décideurs publics et le public. J'essaie de le faire par l'entremise de rapports de recherche, en organisant ou en prenant part à des événements ouverts au public ou en participant à des entrevues médiatiques en français et en anglais. J'ai participé à plusieurs entrevues sur le rôle de la mésinformation au Canada avec les principaux médias canadiens, incluant entre autres: 
 
-**En français:** Radio-Canada, Le Devoir, 98.5 FM, TVA Nouvelles/LCN, Le Journal de Montréal et QUB Radio 
+**En français:** Radio-Canada, La Presse, Le Devoir, 98.5 FM, TVA Nouvelles, Le Journal de Montréal, QUB Radio et Radio VM.
 
 **En anglais:** CBC, CTV, Global News, City News et The Canadian Press. 
 

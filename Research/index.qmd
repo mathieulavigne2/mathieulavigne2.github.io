@@ -34,7 +34,7 @@ Ruiz-Soler, Javier, **Mathieu Lavigne**, Colette Brin, and Aengus Bridgman. [Dis
 
 [3] **Lavigne, Mathieu** and Éric Bélanger. The Origin, Prevalence, and Consequences of Issue-Based Affective Polarization: Examining COVID-19 and Climate Change Affects.
 
-[4] **Lavigne, Mathieu**, John Carey, Brian Fogarty, Brendan Nyhan, and Jason Reifler. Correction Mismatch: How Inattention and Selective Exposure Limit the Effects of Voter Fraud Debunking.
+[4] **Lavigne, Mathieu**, John Carey, Brian Fogarty, Brendan Nyhan, and Jason Reifler. Correction Mismatch: How Inattention and Selective Exposure Limit the Effects of Election Fraud Debunking.
 
 [5] **Lavigne, Mathieu** and Aengus Bridgman. Une barrière linguistique? How Language Influences the Spread of U.S.-Based COVID-19 Misinformation.
 
