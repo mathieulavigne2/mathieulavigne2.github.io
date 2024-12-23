@@ -6,7 +6,7 @@ You can also find my research on my [Google Scholar](https://scholar.google.com/
 
 ## Peer-reviewed articles
 
-**Lavigne, Mathieu**. 2024. L’inconfort ou l’indifférence ? Comprendre l’opposition aux mesures visant à contrer la mésinformation au Québec. *Canadian Journal of Political Science / Revue canadienne de science politique*. In Press. 
+**Lavigne, Mathieu**. 2024. [L’inconfort ou l’indifférence ? Comprendre l’opposition aux mesures visant à contrer la mésinformation au Québec](https://doi.org/10.1017/S000842392400043X){target="_blank"}. *Canadian Journal of Political Science / Revue canadienne de science politique*.  
 
 **Lavigne, Mathieu**, Éric Bélanger, Richard Nadeau, Jean-François Daoust, and Erick Lachapelle. 2022. [Hide and seek: The connection between false beliefs and perceptions of government transparency](https://misinforeview.hks.harvard.edu/article/hide-and-seek-the-connection-between-false-beliefs-and-perceptions-of-government-transparency/){target="_blank"}. *Harvard Kennedy School (HKS) Misinformation Review*. [Replication files](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/3CE9GA){target="_blank"} 
 
