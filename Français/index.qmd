@@ -22,7 +22,7 @@ about:
 
 Bonjour !
 
-Je suis un chercheur postdoctoral (financé par le CRSH) affilié au [Program in Quantitative Social Science](https://qss.dartmouth.edu/) à Dartmouth College. Je collabore aussi comme analyste senior avec l'[Observatoire de l'écosystème médiatique]{https://meo.ca/}. Détenteur d'un doctorat en [science politique](https://www.mcgill.ca/politicalscience/){target="_blank"} de l'Université McGill, je me spécialise dans l'étude de la communication politique, des comportements politiques, de l'opinion publique, de la politique canadienne et des méthodologies quantitatives. 
+Je suis un chercheur postdoctoral (financé par le CRSH) affilié au [Program in Quantitative Social Science](https://qss.dartmouth.edu/) à Dartmouth College. Je collabore aussi comme analyste senior avec l'[Observatoire de l'écosystème médiatique](https://meo.ca/). Détenteur d'un doctorat en [science politique](https://www.mcgill.ca/politicalscience/){target="_blank"} de l'Université McGill, je me spécialise dans l'étude de la communication politique, des comportements politiques, de l'opinion publique, de la politique canadienne et des méthodologies quantitatives. 
 
 Je m'intéresse principalement aux types d'information auxquels les citoyens sont exposés et à la manière dont celle-ci influence leurs attitudes et comportements politiques. Ma recherche porte notamment sur la désinformation, le micro-ciblage politique, l'environnement d'information, les perceptions de l'intégrité électorale, la confiance et la polarisation politique. Dans ma recherche, j'utilise une variété de méthodes, incluant des techniques de sondage (observationnelles et expérimentales), des analyses de données de navigation et de médias sociaux et des analyses de contenu. 
 
