@@ -14,32 +14,34 @@ You can also find my research on my [Google Scholar](https://scholar.google.com/
 
 ## Book chapters/Encyclopedia entries
 
+**Lavigne, Mathieu**. Forthcoming, 2026. Microtargeting in Canadian Campaign Advertising. In Alex Marland, Elizabeth Dubois, and Thierry Giasson (ed.). *Political Marketing in a Canadian Election*. UBC Press.
+
+**Lavigne, Mathieu** and Olivier Bergeron-Boutin. Forthcoming, 2026. Misinformation. In Daniel Stockemer, Stephen Sawyer, and Audrey Gagnon (ed.). *IPSA Companion to Political Science*. Springer Nature.
+
 **Lavigne, Mathieu**. 2024. [Polarisation affective: Comprendre nos différences pour apaiser nos différends]. Dans [*L'état du Québec 2025. Sommes-nous une société émotive ?*](https://inm.qc.ca/produit/letat-du-quebec-2025/){target="_blank"}. Sous la direction de Josselyn Guillarmou et Sandra Larochelle. Montréal : INM - Somme toute / Le Devoir, pp. 42-52.
 
 **Lavigne, Mathieu**. 2022. [Microtargeting](https://www.elgaronline.com/edcollchap/book/9781800374263/b-9781800374263.microtargeting.lavigne.xml){target="_blank"}. In Andrea Ceron (Ed.). *Elgar Encyclopedia of Technology and Politics*. 
 
 ## Research reports
 
-**Lavigne, Mathieu**, Maxime Blanchard, Anne Imouza, Aengus Bridgman, Chloé Staller, Kaligirwa Namahoro, Ella Noel, Catherine Perron, Phaedra de Saint-Rome, and Taylor Owen. 2023. [Analyse du rôle de la mésinformation lors de l'élection provinciale québécoise de 2022](https://osf.io/wam45){target="_blank"}. Centre for Media, Technology, and Democracy. 
+[The Canadian Information Ecosystem during the 2025 Federal Election](https://www.cdmrn.ca/publications/the-canadianinformation-ecosystem-during-the-2025-federal-election){target="_blank"}. Media Ecosystem Observatory. 2025.
 
-Bridgman, Aengus, **Mathieu Lavigne**, Melissa Baker, Thomas Bergeron, Danielle Bohonos, Anthony Burton, Katharine McCoy, Mackenzie Hart, Robert Hiltz, Mathieu Lavault, Ruppinder Liddar, Pangying Peng, Adelina Petit-Vouriot, Christopher Ross, Phaedra de Saint-Rome, Jaclyn Victor, Taylor Owen, and Peter Loewen. 2022. [Mis- and disinformation during the 2021 Canadian federal election](https://www.mcgill.ca/maxbellschool/files/maxbellschool/meo_election_2021_report.pdf){target="_blank"}. Media Ecosystem Observatory. 
+[Analyse du rôle de la mésinformation lors de l'élection provinciale québécoise de 2022](https://osf.io/wam45){target="_blank"}. Centre for Media, Technology, and Democracy. 2023.
 
-Ruiz-Soler, Javier, **Mathieu Lavigne**, Colette Brin, and Aengus Bridgman. [Disinformation Risk Assessment: The Online News Market in Canada](https://www.disinformationindex.org/country-studies/2021-9-30-the-online-news-market-in-canada/){target="_blank"}. Global Disinformation Index. ([Aussi disponible en français](https://www.disinformationindex.org/country-studies/2021-9-30-the-online-news-market-in-canada/){target="_blank"})
+[Mis- and disinformation during the 2021 Canadian federal election](https://www.mcgill.ca/maxbellschool/files/maxbellschool/meo_election_2021_report.pdf){target="_blank"}. Media Ecosystem Observatory. 2022.
+
+[Disinformation Risk Assessment: The Online News Market in Canada](https://www.disinformationindex.org/country-studies/2021-9-30-the-online-news-market-in-canada/){target="_blank"}. Global Disinformation Index. 2021. ([Aussi disponible en français](https://www.disinformationindex.org/country-studies/2021-9-30-the-online-news-market-in-canada/){target="_blank"})
 
 ## Working papers
 
-[1] **Lavigne, Mathieu**. Fake, Frequent, Harmful: Unpacking and Explaining the Citizen View of Misinformation. Under review. 
+[1] **Lavigne, Mathieu**, Holly Ann Garnett, and Aengus Bridgman. (Mis)information, Polarization, and Trust in Elections: Longitudinal Evidence from Canada. Conditionally accepted. Public Opinion Quarterly.
 
-[2] **Lavigne, Mathieu**. Understanding the Demand Side: Who Tolerates the Spread of Misinformation? Under review.
+[2] **Lavigne, Mathieu**. Fake, Frequent, Harmful: Unpacking and Explaining the Citizen View of Misinformation. R&R (minor revisions).
 
-[3] **Lavigne, Mathieu** and Éric Bélanger. The Origin, Prevalence, and Consequences of Issue-Based Affective Polarization: Examining COVID-19 and Climate Change Affects.
+[3] **Lavigne, Mathieu**, Brian Fogarty, John Carey, Brendan Nyhan, and Jason Reifler. Differential Inattention Limits Public Exposure to Content Challenging Election Fraud Misinformation. 
 
-[4] **Lavigne, Mathieu**, John Carey, Brian Fogarty, Brendan Nyhan, and Jason Reifler. Correction Mismatch: How Inattention and Selective Exposure Limit the Effects of Election Fraud Debunking.
+[4] **Lavigne, Mathieu** and Éric Bélanger. The Origin, Prevalence, and Consequences of Issue-Based Affective Polarization: Examining COVID-19 and Climate Change Affects.
 
 [5] **Lavigne, Mathieu** and Aengus Bridgman. Une barrière linguistique? How Language Influences the Spread of U.S.-Based COVID-19 Misinformation.
 
-[6] **Lavigne, Mathieu**, Holly Ann Garnett, and Aengus Bridgman. Misinformation, Polarization, and Trust in Elections: Longitudinal Evidence from Canada.
-
-[7] Bridgman, Aengus and **Mathieu Lavigne**. Reach, Perceived Accuracy, and Engagement With Real and Fake Stories During the 2021 Canadian Federal Election.
-
-
+[6] Bridgman, Aengus and **Mathieu Lavigne**. Reach, Perceived Accuracy, and Engagement With Real and Fake Stories During the 2021 Canadian Federal Election.
