@@ -24,14 +24,14 @@ Welcome!
 
 I am the Analytical Lead at the [Media Ecosystem Observatory](https://meo.ca/) at McGill. I previously was a SSHRC postdoctoral fellow in the [Program in Quantitative Social Science](https://qss.dartmouth.edu/) at Dartmouth College. I hold a Ph.D. in [Political Science](https://www.mcgill.ca/politicalscience/){target="_blank"} from McGill University. I specialize in political communication, political behavior, public opinion, Canadian politics, and quantitative methods. 
 
-I am particularly interested in the types of information citizens are exposed to and how it shapes their political attitudes and behaviors. I have mainly conducted research on mis- and disinformation, political microtargeting, the information environment, perceptions of election integrity, trust, and political polarization. My research builds on a broad range of data, including observational and experimental survey data, news content, web browsing data, and social media data.
+I am particularly interested in the health of the political information environment, with most of my research focusing on the types of information citizens are exposed to and how it shapes their attitudes and behaviors. I have mainly conducted research on mis- and disinformation, political microtargeting, the information environment, perceptions of election integrity, trust, and political polarization. My research builds on a broad range of data, including observational and experimental survey data, news content, web browsing data, and social media data.
 
-My research has been published in *Party Politics*, the *Harvard Kennedy School (HKS) Misinformation Review*, the *Canadian Journal of Political Science* and the *Elgar Encyclopedia of Technology and Politics*. I also am the co-author of multiple public facing reports. More information about my publications and ongoing research can be found [here](./Research/index.qmd){target="_blank"}.
+My research has been published in *Party Politics*, the *Harvard Kennedy School (HKS) Misinformation Review*, the *Canadian Journal of Political Science*, the *Elgar Encyclopedia of Technology and Politics*, and the *IPSA Companion to Political Science*, among others. I also am the co-author of multiple public facing reports. More information about my publications and ongoing research can be found [here](./Research/index.qmd){target="_blank"}.
 
 I often provide commentary on misinformation, polarization, and the information environment in Canada's main in French- and English-language media (radio, television, written), including: 
 
 **In English:** CBC, CTV, Global News, City News, The Canadian Press, and PNI Atlantic, among others.
 
-**In French:** Radio-Canada, La Presse, Le Devoir, 98.5FM, TVA Nouvelles, Le Journal de Montréal, QUB Radio, and Radio VM among others. 
+**In French:** Radio-Canada, La Presse, Le Devoir, 98.5FM, TVA Nouvelles, Le Journal de Montréal, QUB Radio, and Radio VM, among others. 
 
 </section>

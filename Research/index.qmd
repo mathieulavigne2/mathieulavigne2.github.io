@@ -6,6 +6,8 @@ You can also find my research on my [Google Scholar](https://scholar.google.com/
 
 ## Peer-reviewed articles
 
+**Lavigne, Mathieu**, Holly Ann Garnett, and Aengus Bridgman. Forthcoming, 2026. (Mis)information, Polarization, and Trust in Elections: Longitudinal Evidence from Canada. *Public Opinion Quarterly*. 
+
 **Lavigne, Mathieu**. 2024. [L’inconfort ou l’indifférence ? Comprendre l’opposition aux mesures visant à contrer la mésinformation au Québec](https://doi.org/10.1017/S000842392400043X){target="_blank"}. *Canadian Journal of Political Science / Revue canadienne de science politique*.  
 
 **Lavigne, Mathieu**, Éric Bélanger, Richard Nadeau, Jean-François Daoust, and Erick Lachapelle. 2022. [Hide and seek: The connection between false beliefs and perceptions of government transparency](https://misinforeview.hks.harvard.edu/article/hide-and-seek-the-connection-between-false-beliefs-and-perceptions-of-government-transparency/){target="_blank"}. *Harvard Kennedy School (HKS) Misinformation Review*. [Replication files](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/3CE9GA){target="_blank"} 
@@ -16,7 +18,7 @@ You can also find my research on my [Google Scholar](https://scholar.google.com/
 
 **Lavigne, Mathieu**. Forthcoming, 2026. Microtargeting in Canadian Campaign Advertising. In Alex Marland, Elizabeth Dubois, and Thierry Giasson (ed.). *Political Marketing in a Canadian Election*. UBC Press.
 
-**Lavigne, Mathieu** and Olivier Bergeron-Boutin. Forthcoming, 2026. Misinformation. In Daniel Stockemer, Stephen Sawyer, and Audrey Gagnon (ed.). *IPSA Companion to Political Science*. Springer Nature.
+**Lavigne, Mathieu** and Olivier Bergeron-Boutin. 2025. [Misinformation](https://doi.org/10.1007/978-3-032-06918-4_148-1). In Daniel Stockemer, Stephen Sawyer, and Audrey Gagnon (ed.). *IPSA Companion to Political Science*. Springer Nature.
 
 **Lavigne, Mathieu**. 2024. [Polarisation affective: Comprendre nos différences pour apaiser nos différends]. Dans [*L'état du Québec 2025. Sommes-nous une société émotive ?*](https://inm.qc.ca/produit/letat-du-quebec-2025/){target="_blank"}. Sous la direction de Josselyn Guillarmou et Sandra Larochelle. Montréal : INM - Somme toute / Le Devoir, pp. 42-52.
 
@@ -34,14 +36,14 @@ You can also find my research on my [Google Scholar](https://scholar.google.com/
 
 ## Working papers
 
-[1] **Lavigne, Mathieu**, Holly Ann Garnett, and Aengus Bridgman. (Mis)information, Polarization, and Trust in Elections: Longitudinal Evidence from Canada. Conditionally accepted. Public Opinion Quarterly.
+[1] **Lavigne, Mathieu**. The politicization of attitudes towards misinformation: How ideology shapes epistemic beliefs, normative judgments, and policy support. 2nd R&R (minor revisions). 
 
-[2] **Lavigne, Mathieu**. Fake, Frequent, Harmful: Unpacking and Explaining the Citizen View of Misinformation. R&R (minor revisions).
+[2] **Lavigne, Mathieu**, Brian Fogarty, John Carey, Brendan Nyhan, and Jason Reifler. Outlet- and Topic-Level Selective Avoidance Limit the Reach of Content Challenging Election Fraud Misinformation. 
 
-[3] **Lavigne, Mathieu**, Brian Fogarty, John Carey, Brendan Nyhan, and Jason Reifler. Differential Inattention Limits Public Exposure to Content Challenging Election Fraud Misinformation. 
+[3] **Lavigne, Mathieu** and Éric Bélanger. The Origin, Prevalence, and Consequences of Issue-Based Affective Polarization: Examining COVID-19 and Climate Change Affects.
 
-[4] **Lavigne, Mathieu** and Éric Bélanger. The Origin, Prevalence, and Consequences of Issue-Based Affective Polarization: Examining COVID-19 and Climate Change Affects.
+[4] **Lavigne, Mathieu** and Aengus Bridgman. Une barrière linguistique? How Language Influences the Spread of U.S.-Based COVID-19 Misinformation.
 
-[5] **Lavigne, Mathieu** and Aengus Bridgman. Une barrière linguistique? How Language Influences the Spread of U.S.-Based COVID-19 Misinformation.
+[5] Bridgman, Aengus and **Mathieu Lavigne**. Reach, Perceived Accuracy, and Engagement With Real and Fake Stories During the 2021 Canadian Federal Election.
 
-[6] Bridgman, Aengus and **Mathieu Lavigne**. Reach, Perceived Accuracy, and Engagement With Real and Fake Stories During the 2021 Canadian Federal Election.
+[6] **Lavigne, Mathieu**. Fake, Frequent, Harmful: Unpacking and Explaining the Citizen View of Misinformation.

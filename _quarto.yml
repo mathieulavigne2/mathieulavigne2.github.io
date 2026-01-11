@@ -29,7 +29,7 @@ website:
     type: textbox
   page-footer: 
     left: |
-      <span class="faux-block">&#169; 2024 Mathieu Lavigne CC BY-SA 4.0</span>
+      <span class="faux-block">&#169; 2026 Mathieu Lavigne CC BY-SA 4.0</span>
 
 preview: 
     port: 22222
