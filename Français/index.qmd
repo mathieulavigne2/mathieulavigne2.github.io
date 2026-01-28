@@ -20,9 +20,7 @@ about:
 
 <section class="about">
 
-Bonjour !
-
-Je suis le Responsable des analyses à l'[Observatoire de l'écosystème médiatique](https://meo.ca/) à McGill. Je détiens un doctorat en [science politique](https://www.mcgill.ca/politicalscience/){target="_blank"} de l'Université McGill et ai complété un stage postdoctoral (financé par le CRSH) au [Programme en science sociale quantitative](https://qss.dartmouth.edu/) à Dartmouth College. Je me spécialise dans l'étude de la communication politique, des comportements politiques, de l'opinion publique, de la politique canadienne et québécoise et des méthodologies quantitatives. 
+Je dirige l'équipe d'analyses de l'[Observatoire de l'écosystème médiatique](https://meo.ca/) à McGill. Je suis aussi membre de la [Chaire de recherche du Québec sur la démocratie, le vivre ensemble et les valeurs communes au Québec](https://neo.uqtr.ca/2024/11/22/chaire-sur-la-democratie-le-vivre-ensemble-et-les-valeurs-communes-au-quebec/){target="_blank"}. Je détiens un doctorat en [science politique](https://www.mcgill.ca/politicalscience/){target="_blank"} de l'Université McGill et ai complété un stage postdoctoral (financé par le CRSH) au [Programme en science sociale quantitative](https://qss.dartmouth.edu/) à Dartmouth College. Je me spécialise dans l'étude de la communication politique, des comportements politiques, de l'opinion publique, de la politique canadienne et québécoise et des méthodologies quantitatives. 
 
 Je m'intéresse principalement à la santé de l'environnement d'information politique et son influence sur les attitudes et comportements politiques des citoyens. Ma recherche porte notamment sur la désinformation, le micro-ciblage politique, l'environnement d'information, les perceptions de l'intégrité électorale, la confiance et la polarisation politique. Dans ma recherche, j'utilise une variété de méthodes, incluant des techniques de sondage (observationnelles et expérimentales), des analyses de données de navigation et de médias sociaux et des analyses de contenu. 
 
