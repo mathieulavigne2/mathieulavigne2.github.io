@@ -6,6 +6,8 @@ You can also find my research on my [Google Scholar](https://scholar.google.com/
 
 ## Peer-reviewed articles
 
+**Lavigne, Mathieu**. 2026. [The politicization of attitudes towards misinformation: How ideology shapes epistemic beliefs, normative judgments, and policy support](https://doi.org/10.1080/17457289.2026.2669135){target="_blank"}. *Journal of Elections, Public Opinion, and Parties*. 
+
 **Lavigne, Mathieu**, Holly Ann Garnett, and Aengus Bridgman. Forthcoming, 2026. (Mis)information, Polarization, and Trust in Elections: Longitudinal Evidence from Canada. *Public Opinion Quarterly*. 
 
 **Lavigne, Mathieu**. 2024. [L’inconfort ou l’indifférence ? Comprendre l’opposition aux mesures visant à contrer la mésinformation au Québec](https://doi.org/10.1017/S000842392400043X){target="_blank"}. *Canadian Journal of Political Science / Revue canadienne de science politique*.  
@@ -16,7 +18,7 @@ You can also find my research on my [Google Scholar](https://scholar.google.com/
 
 ## Book chapters/Encyclopedia entries
 
-**Lavigne, Mathieu**. Forthcoming, 2026. Microtargeting in Canadian Campaign Advertising. In Alex Marland, Elizabeth Dubois, and Thierry Giasson (ed.). *Political Marketing in a Canadian Election*. UBC Press.
+**Lavigne, Mathieu**. Forthcoming, 2026. Microtargeting in Canadian Campaign Advertising. In Alex Marland, Elizabeth Dubois, and Thierry Giasson (ed.). *Marketing the Vote: Election Strategy and Campaigning in Canada*. UBC Press.
 
 **Lavigne, Mathieu** and Olivier Bergeron-Boutin. 2025. [Misinformation](https://doi.org/10.1007/978-3-032-06918-4_148-1). In Daniel Stockemer, Stephen Sawyer, and Audrey Gagnon (ed.). *IPSA Companion to Political Science*. Springer Nature.
 
@@ -25,6 +27,9 @@ You can also find my research on my [Google Scholar](https://scholar.google.com/
 **Lavigne, Mathieu**. 2022. [Microtargeting](https://www.elgaronline.com/edcollchap/book/9781800374263/b-9781800374263.microtargeting.lavigne.xml){target="_blank"}. In Andrea Ceron (Ed.). *Elgar Encyclopedia of Technology and Politics*. 
 
 ## Research reports
+
+[Conspiratorial Claims and Institutional Distrust in Canada’s Online Ecosystem](https://meo.ca/work/conspiratorial-claims-and-institutional-distrust-in-canadas-online-ecosystem){target="_blank"}.
+Media Ecosystem Observatory. 2026.
 
 [The Canadian Information Ecosystem during the 2025 Federal Election](https://www.cdmrn.ca/publications/the-canadianinformation-ecosystem-during-the-2025-federal-election){target="_blank"}. Media Ecosystem Observatory. 2025.
 
@@ -36,9 +41,9 @@ You can also find my research on my [Google Scholar](https://scholar.google.com/
 
 ## Working papers
 
-[1] **Lavigne, Mathieu**. The politicization of attitudes towards misinformation: How ideology shapes epistemic beliefs, normative judgments, and policy support. 2nd R&R (minor revisions). 
+[1] **Lavigne, Mathieu**, Brian Fogarty, John Carey, Brendan Nyhan, and Jason Reifler. Outlet- and Topic-Level Selective Avoidance Limit the Reach of Content Challenging Election Fraud Misinformation. 
 
-[2] **Lavigne, Mathieu**, Brian Fogarty, John Carey, Brendan Nyhan, and Jason Reifler. Outlet- and Topic-Level Selective Avoidance Limit the Reach of Content Challenging Election Fraud Misinformation. 
+[2] **Lavigne, Mathieu** and Aengus Bridgman. The News Canadian Actually See: Redefining Political Information in the Digital Age.
 
 [3] **Lavigne, Mathieu** and Éric Bélanger. The Origin, Prevalence, and Consequences of Issue-Based Affective Polarization: Examining COVID-19 and Climate Change Affects.
 
