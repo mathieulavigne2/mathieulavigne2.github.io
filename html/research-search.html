@@ -1,0 +1,89 @@
+<script>
+// One search box across every listing on the Research page.
+//
+// Quarto's own `filter-ui: true` renders a separate filter input per listing,
+// which would mean five search boxes on this page. Instead each listing is
+// built with filter-ui off and this drives them all through the List.js
+// instances Quarto already created and registered on window["quarto-listings"].
+//
+// Text search and the theme sidebar compose: List.js applies .filter()
+// (set by Quarto when a category is clicked) and .search() independently, so
+// "misinformation + polarization" narrows correctly.
+//
+// Section headings hide themselves when their listing has no matches, so you
+// never get a bare "Book chapters" heading over an empty gap.
+(function () {
+  "use strict";
+
+  function init() {
+    var listings = window["quarto-listings"];
+    var input = document.getElementById("pub-search");
+    if (!listings || !input) return false;
+
+    var ids = Object.keys(listings);
+    if (!ids.length) return false;
+
+    var status = document.getElementById("pub-search-status");
+    var strings = {
+      none: input.getAttribute("data-none") || "No publications match.",
+      count: input.getAttribute("data-count") || "{n} publications"
+    };
+
+    // A listing's heading and container are wrapped in a .pub-section, so
+    // hiding the section hides the heading with it.
+    function sectionFor(id) {
+      var el = document.getElementById(id);
+      return el ? el.closest(".pub-section") : null;
+    }
+
+    function refresh() {
+      var total = 0;
+      ids.forEach(function (id) {
+        var list = listings[id];
+        var n = list.matchingItems ? list.matchingItems.length : 0;
+        total += n;
+        var section = sectionFor(id);
+        if (section) section.hidden = n === 0;
+        var jump = document.querySelector('.pub-jump a[data-listing="' + id + '"]');
+        if (jump) {
+          jump.classList.toggle("is-empty", n === 0);
+          if (n === 0) jump.setAttribute("aria-disabled", "true");
+          else jump.removeAttribute("aria-disabled");
+        }
+      });
+
+      if (status) {
+        status.textContent = total === 0
+          ? strings.none
+          : strings.count.replace("{n}", total);
+      }
+    }
+
+    var timer = null;
+    input.addEventListener("input", function () {
+      clearTimeout(timer);
+      var q = input.value.trim();
+      timer = setTimeout(function () {
+        ids.forEach(function (id) { listings[id].search(q); });
+        refresh();
+      }, 120);
+    });
+
+    // Fires on category clicks and on our own searches alike.
+    ids.forEach(function (id) { listings[id].on("updated", refresh); });
+
+    refresh();
+    return true;
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    // Quarto registers its listings on DOMContentLoaded too. Handler order is
+    // registration order, which we do not control, so retry briefly.
+    if (init()) return;
+    var tries = 0;
+    var poll = setInterval(function () {
+      if (init() || ++tries > 40) clearInterval(poll);
+    }, 50);
+  });
+})();
+</script>

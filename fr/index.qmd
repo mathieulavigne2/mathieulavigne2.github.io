@@ -1,0 +1,49 @@
+---
+title: "Mathieu Lavigne"
+description: "J'étudie la mésinformation, la polarisation et la santé de l'environnement d'information."
+about:
+  template: trestles
+  image: ../assets/mathieu.webp
+  image-alt: "Mathieu Lavigne"
+  links:
+    - icon: envelope
+      text: Courriel
+      href: "mailto:mathieu.lavigne@mcgill.ca"
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/mathieulavigne.bsky.social
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/mathieu-lavigne-70266a32b
+    - icon: mortarboard
+      text: Scholar
+      href: https://scholar.google.com/citations?user=LZylY84AAAAJ&hl=fr&oi=ao
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0003-3408-9923
+---
+
+Je dirige l'équipe d'analyse de l'[Observatoire de l'écosystème médiatique](https://mediatechdemocracy.com/fr/meo/)
+à l'Université McGill et je suis membre de la
+[Chaire de recherche du Québec sur la démocratie, le vivre ensemble et les valeurs communes au Québec](https://chaireduquebec-citoyennete.ca/).
+Je détiens un doctorat en
+[science politique](https://www.mcgill.ca/politicalscience/) de l'Université
+McGill et ai complété un stage postdoctoral dans le
+[Programme en sciences sociales quantitatives](https://qss.dartmouth.edu/) à
+Dartmouth College.
+
+Je m'intéresse à la santé de l'environnement d'information politique : à
+l'information à laquelle les citoyens sont réellement exposés et à la manière
+dont elle façonne leurs attitudes et leurs comportements. Mes travaux portent
+principalement sur la mésinformation et la désinformation, le microciblage
+politique, les perceptions de l'intégrité électorale, la confiance et la
+polarisation politique au Canada, au Québec et aux États-Unis.
+
+Mes travaux s'appuient sur des données de sondage, des contenus médiatiques,
+des données de navigation Web, des données issues des médias sociaux et des
+audits d'agents conversationnels.
+
+Je consacre aussi beaucoup de temps à faire connaître cette recherche en
+dehors du milieu universitaire, en français comme en anglais.
+
+[Voir mes travaux →](research/index.qmd)

@@ -1,0 +1,114 @@
+---
+title: "Recherche"
+format:
+  html:
+    include-after-body:
+      - ../../html/bilingual-nav.html
+      - ../../html/research-search.html
+listing:
+  - id: articles
+    contents: publications.yml
+    include: {kind: article}
+    template: ../../html/publication.ejs.md
+    fields: [title, authors, venue, year, categories]
+    template-params:
+      label_read: "Consulter"
+      label_replication: "Données de réplication"
+      label_with: "avec"
+    categories: unnumbered
+    sort: "date desc"
+    page-size: 100
+  - id: chapters
+    contents: publications.yml
+    include: {kind: chapter}
+    template: ../../html/publication.ejs.md
+    fields: [title, authors, venue, year, categories]
+    template-params:
+      label_read: "Consulter"
+      label_replication: "Données de réplication"
+      label_with: "avec"
+    categories: unnumbered
+    sort: "date desc"
+    page-size: 100
+  - id: reports
+    contents: publications.yml
+    include: {kind: report}
+    template: ../../html/publication.ejs.md
+    fields: [title, authors, venue, year, categories]
+    template-params:
+      label_read: "Consulter"
+      label_replication: "Données de réplication"
+      label_with: "avec"
+    categories: unnumbered
+    sort: "date desc"
+    page-size: 100
+  - id: working-papers
+    contents: publications.yml
+    include: {kind: working-paper}
+    template: ../../html/publication.ejs.md
+    fields: [title, authors, venue, year, categories]
+    template-params:
+      label_read: "Consulter"
+      label_replication: "Données de réplication"
+      label_with: "avec"
+    categories: unnumbered
+    sort: "date desc"
+    page-size: 100
+---
+
+Utilisez la recherche ci-dessous ou filtrez par thème à l'aide des catégories
+dans la marge.
+
+Mes travaux sont aussi répertoriés sur
+[Google Scholar](https://scholar.google.com/citations?user=LZylY84AAAAJ&hl=fr&oi=ao)
+et [ORCID](https://orcid.org/0000-0003-3408-9923).
+
+```{=html}
+<div class="pub-search-bar">
+  <input type="search" id="pub-search" class="pub-search-input"
+         placeholder="Rechercher par titre, auteur ou revue…"
+         aria-label="Rechercher dans les publications"
+         data-none="Aucune publication ne correspond."
+         data-count="{n} publications">
+  <p id="pub-search-status" class="pub-search-status" aria-live="polite"></p>
+</div>
+```
+
+```{=html}
+<nav class="pub-jump" aria-label="Types de publications">
+  <ul>
+    <li><a href="#pubs-articles" data-listing="articles">Articles évalués par les pairs</a></li>
+    <li><a href="#pubs-chapters" data-listing="chapters">Chapitres de livre et entrées d&rsquo;encyclopédie</a></li>
+    <li><a href="#pubs-reports" data-listing="reports">Rapports de recherche</a></li>
+    <li><a href="#pubs-working-papers" data-listing="working-papers">Travaux en cours</a></li>
+  </ul>
+</nav>
+```
+
+::: {.pub-section}
+## Articles évalués par les pairs {#pubs-articles}
+
+:::{#articles}
+:::
+:::
+
+::: {.pub-section}
+## Chapitres de livre et entrées d'encyclopédie {#pubs-chapters}
+
+:::{#chapters}
+:::
+:::
+
+::: {.pub-section}
+## Rapports de recherche {#pubs-reports}
+
+:::{#reports}
+:::
+:::
+
+::: {.pub-section}
+## Travaux en cours {#pubs-working-papers}
+
+:::{#working-papers}
+:::
+:::

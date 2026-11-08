@@ -1,0 +1,32 @@
+---
+title: "Curriculum vitæ"
+description: "Mon curriculum vitæ. Je dirige l'équipe d'analyse de l'Observatoire de l'écosystème médiatique, Université McGill."
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>#title-block-header .description { display: none; }</style>
+---
+
+<!--
+Le PDF n'est pas dupliqué : les deux versions linguistiques pointent vers
+cv/cv.pdf, qui n'existe qu'une fois dans le dépôt.
+Voir cv/index.qmd pour la note sur l'affichage mobile.
+-->
+
+```{=html}
+<div class="button-row">
+  <a class="btn-download" href="/cv/cv.pdf" download>Télécharger le CV (PDF)</a>
+  <a class="btn-download" href="/cv/cv.pdf" target="_blank" rel="noopener"
+     style="background:transparent;color:#8a2b33 !important;">Ouvrir dans un nouvel onglet</a>
+</div>
+```
+
+Dernière mise à jour : mai 2026.
+
+```{=html}
+<object class="cv-embed" data="/cv/cv.pdf" type="application/pdf">
+  <p>Votre navigateur ne peut pas afficher les PDF.
+     <a href="/cv/cv.pdf">Téléchargez le PDF</a>.</p>
+</object>
+```

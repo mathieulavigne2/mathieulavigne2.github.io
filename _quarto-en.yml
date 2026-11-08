@@ -1,0 +1,41 @@
+# English profile. Renders the site root into _site-en/.
+# Merged over _quarto.yml.  Invoke with: quarto render --profile en
+
+project:
+  output-dir: _site-en
+  render:
+    - "index.qmd"
+    - "404.qmd"
+    - "cv/**"
+    - "media/**"
+    - "research/**"
+    - "teaching/**"
+    # Legacy path redirect, kept so old inbound links keep working.
+    - "Français/**"
+    - "!fr/**"
+
+lang: en-CA
+
+website:
+  navbar:
+    left:
+      - text: "Research"
+        href: research/index.qmd
+      - text: "Teaching"
+        href: teaching/index.qmd
+      - text: "In the news"
+        href: media/index.qmd
+      - text: "CV"
+        href: cv/index.qmd
+    right:
+      # Language toggle. The href is a sensible default (the French home
+      # page); html/lang-toggle.html upgrades it at runtime to point at the
+      # French version of whatever page you are currently on.
+      - text: "FR"
+        href: /fr/
+
+  page-footer:
+    left: |
+      &#169; Mathieu Lavigne &middot; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+    right: |
+      [Français](/fr/)

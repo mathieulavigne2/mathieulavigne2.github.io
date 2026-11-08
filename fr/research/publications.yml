@@ -1,0 +1,419 @@
+# GENERATED FILE - do not edit.
+# Produced by R/build-listings.R from data/publications.yml.
+# Edit the canonical file in data/ instead.
+- title: 'The politicization of attitudes towards misinformation: How ideology shapes
+    epistemic beliefs, normative judgments, and policy support'
+  authors: Mathieu Lavigne
+  venue: Journal of Elections, Public Opinion and Parties
+  year: '2026'
+  date: '2026-10-01'
+  kind: article
+  categories:
+  - Mésinformation
+  - Opinion publique
+  - Polarisation
+  path: https://doi.org/10.1080/17457289.2026.2669135
+  link: https://doi.org/10.1080/17457289.2026.2669135
+  doi: 10.1080/17457289.2026.2669135
+  replication: https://doi.org/10.7910/DVN/XRMB5G
+- title: '(Mis)information, Polarization, and Trust in Elections: Longitudinal Evidence
+    from Canada'
+  authors: Mathieu Lavigne, Holly Ann Garnett, and Aengus Bridgman
+  venue: Public Opinion Quarterly
+  year: '2026'
+  date: '2026-06-19'
+  kind: article
+  categories:
+  - Mésinformation
+  - Intégrité électorale
+  - Confiance envers les institutions
+  - Polarisation
+  path: https://doi.org/10.1093/poq/nfag035
+  link: https://doi.org/10.1093/poq/nfag035
+  doi: 10.1093/poq/nfag035
+  replication: https://doi.org/10.7910/DVN/OGCPBW
+  coauthors: Holly Ann Garnett et Aengus Bridgman
+- title: L'inconfort ou l'indifférence ? Comprendre l'opposition aux mesures visant
+    à contrer la mésinformation au Québec
+  authors: Mathieu Lavigne
+  venue: Revue canadienne de science politique / Canadian Journal of Political Science
+  year: '2024'
+  date: '2024-09-01'
+  kind: article
+  categories:
+  - Mésinformation
+  - Politique québécoise et canadienne
+  - Opinion publique
+  path: https://doi.org/10.1017/S000842392400043X
+  link: https://doi.org/10.1017/S000842392400043X
+  doi: 10.1017/S000842392400043X
+  replication: https://doi.org/10.7910/DVN/EO16LA
+- title: 'Hide and seek: The connection between false beliefs and perceptions of government
+    transparency'
+  authors: Mathieu Lavigne, Éric Bélanger, Richard Nadeau, Jean-François Daoust, and
+    Erick Lachapelle
+  venue: Harvard Kennedy School (HKS) Misinformation Review
+  year: '2022'
+  date: '2022-05-01'
+  kind: article
+  categories:
+  - Mésinformation
+  - Confiance envers les institutions
+  path: https://misinforeview.hks.harvard.edu/article/hide-and-seek-the-connection-between-false-beliefs-and-perceptions-of-government-transparency/
+  link: https://misinforeview.hks.harvard.edu/article/hide-and-seek-the-connection-between-false-beliefs-and-perceptions-of-government-transparency/
+  replication: https://doi.org/10.7910/DVN/3CE9GA
+  coauthors: Éric Bélanger, Richard Nadeau, Jean-François Daoust et Erick Lachapelle
+- title: 'Strengthening ties: The influence of microtargeting on partisan attitudes
+    and the vote'
+  authors: Mathieu Lavigne
+  venue: Party Politics
+  year: '2021'
+  date: '2021-01-01'
+  kind: article
+  categories:
+  - Microciblage et publicité politique
+  path: https://doi.org/10.1177/1354068820918387
+  link: https://doi.org/10.1177/1354068820918387
+  doi: 10.1177/1354068820918387
+- title: Microtargeting in Canadian Campaign Advertising
+  authors: Mathieu Lavigne
+  venue: 'Dans Alex Marland, Elizabeth Dubois et Thierry Giasson (dir.), <em>Marketing
+    the Vote: Election Strategy and Campaigning in Canada</em>. UBC Press'
+  year: '2026'
+  date: '2026-12-01'
+  kind: chapter
+  categories:
+  - Microciblage et publicité politique
+  - Politique québécoise et canadienne
+  path: https://www.ubcpress.ca/marketing-the-vote
+  link: https://www.ubcpress.ca/marketing-the-vote
+- title: Misinformation
+  authors: Mathieu Lavigne and Olivier Bergeron-Boutin
+  venue: Dans Daniel Stockemer, Stephen Sawyer et Audrey Gagnon (dir.), <em>IPSA Companion
+    to Political Science</em>. Springer Nature
+  year: '2025'
+  date: '2025-06-01'
+  kind: chapter
+  categories:
+  - Mésinformation
+  path: https://doi.org/10.1007/978-3-032-06918-4_148-1
+  link: https://doi.org/10.1007/978-3-032-06918-4_148-1
+  doi: 10.1007/978-3-032-06918-4_148-1
+  coauthors: Olivier Bergeron-Boutin
+- title: 'Polarisation affective : comprendre nos différences pour apaiser nos différends'
+  authors: Mathieu Lavigne
+  venue: 'Dans <em>L''état du Québec 2025. Sommes-nous une société émotive ?</em>,
+    sous la direction de Josselyn Guillarmou et Sandra Larochelle. Montréal : INM
+    – Somme toute / Le Devoir, p. 42–52'
+  year: '2024'
+  date: '2024-11-01'
+  kind: chapter
+  categories:
+  - Polarisation
+  - Politique québécoise et canadienne
+  path: https://inm.qc.ca/produit/letat-du-quebec-2025/
+  link: https://inm.qc.ca/produit/letat-du-quebec-2025/
+- title: Microtargeting
+  authors: Mathieu Lavigne
+  venue: Dans Andrea Ceron (dir.), <em>Elgar Encyclopedia of Technology and Politics</em>
+  year: '2022'
+  date: '2022-01-01'
+  kind: chapter
+  categories:
+  - Microciblage et publicité politique
+  path: https://www.elgaronline.com/edcollchap/book/9781800374263/b-9781800374263.microtargeting.lavigne.xml
+  link: https://www.elgaronline.com/edcollchap/book/9781800374263/b-9781800374263.microtargeting.lavigne.xml
+- title: L'environnement d'information à l'aube de l'élection québécoise de 2026
+  authors: Mathieu Lavigne, Mika Desblancs-Patel, Jérémie Drouin, and Manon Paquet
+  venue: Observatoire de l'écosystème médiatique
+  year: '2026'
+  date: '2026-08-27'
+  kind: report
+  categories:
+  - Confiance envers les institutions
+  - Politique québécoise et canadienne
+  - IA et plateformes
+  - Environnement d'information
+  - Intégrité électorale
+  path: https://doi.org/10.66536/qc-election-baseline_2026
+  link: https://doi.org/10.66536/qc-election-baseline_2026
+  doi: 10.66536/qc-election-baseline_2026
+  coauthors: Mika Desblancs-Patel, Jérémie Drouin et Manon Paquet
+- title: 'The News Canadians Actually See: Redefining Political Information in the
+    Digital Age'
+  authors: Mathieu Lavigne, Saewon Park, Esli Chan, Sara Parker, Chris Ross, Junyan
+    Zhu, Zeynep Pehlivan, and Aengus Bridgman
+  venue: Observatoire de l'écosystème médiatique
+  year: '2026'
+  date: '2026-06-30'
+  kind: report
+  categories:
+  - Environnement d'information
+  - Politique québécoise et canadienne
+  path: https://doi.org/10.66536/news-canadians-actually-see_2026
+  link: https://doi.org/10.66536/news-canadians-actually-see_2026
+  doi: 10.66536/news-canadians-actually-see_2026
+  coauthors: Saewon Park, Esli Chan, Sara Parker, Chris Ross, Junyan Zhu, Zeynep Pehlivan
+    et Aengus Bridgman
+- title: Conspiratorial Claims and Institutional Distrust in Canada's Online Ecosystem
+  authors: Mika Desblancs-Patel, Esli Chan, Mathieu Lavigne, Chris Ross, David Hobson,
+    Ben Steel, and Helen A. Hayes
+  venue: Observatoire de l'écosystème médiatique
+  year: '2026'
+  date: '2026-02-23'
+  kind: report
+  categories:
+  - Mésinformation
+  - Confiance envers les institutions
+  path: https://doi.org/10.66536/conspiracy-distrust_2026
+  link: https://doi.org/10.66536/conspiracy-distrust_2026
+  doi: 10.66536/conspiracy-distrust_2026
+  coauthors: Mika Desblancs-Patel, Esli Chan, Chris Ross, David Hobson, Ben Steel
+    et Helen A. Hayes
+- title: The Canadian Information Ecosystem during the 2025 Federal Election
+  authors: Aengus Bridgman, Jennie Phillips, Alexei Abrahams, and 32 others (including
+    Mathieu Lavigne)
+  venue: Observatoire de l'écosystème médiatique / Réseau canadien de recherche sur
+    les médias numériques
+  year: '2025'
+  date: '2025-06-01'
+  kind: report
+  categories:
+  - Intégrité électorale
+  - Mésinformation
+  - Environnement d'information
+  path: https://doi.org/10.66536/federal-election_2025
+  link: https://doi.org/10.66536/federal-election_2025
+  doi: 10.66536/federal-election_2025
+  coauthors: Aengus Bridgman, Jennie Phillips, Alexei Abrahams et 32 autres
+- title: Analyse du rôle de la mésinformation lors de l'élection provinciale québécoise
+    de 2022
+  authors: Mathieu Lavigne, Maxime Blanchard, Anne Imouza, Aengus Bridgman, Chloé
+    Staller, Kaligirwa Namahoro, Ella Noel, Catherine Perron, Phaedra de Saint-Rome,
+    and Taylor Owen
+  venue: Observatoire de l'écosystème médiatique
+  year: '2023'
+  date: '2023-03-15'
+  kind: report
+  categories:
+  - Mésinformation
+  - Intégrité électorale
+  - Politique québécoise et canadienne
+  path: https://doi.org/10.66536/quebec-election-misinfo_2023
+  link: https://doi.org/10.66536/quebec-election-misinfo_2023
+  doi: 10.66536/quebec-election-misinfo_2023
+  coauthors: Maxime Blanchard, Anne Imouza, Aengus Bridgman, Chloé Staller, Kaligirwa
+    Namahoro, Ella Noel, Catherine Perron, Phaedra de Saint-Rome et Taylor Owen
+- title: 'The Role of Misinformation in the 2022 Quebec Election: Mid-Election Analysis'
+  authors: Mathieu Lavigne, Anne Imouza, Maxime Blanchard, Catherine Perron, Chloé
+    Staller, Ella Noel, and Kaligirwa Namahoro
+  venue: Observatoire de l'écosystème médiatique
+  year: '2022'
+  date: '2022-09-23'
+  kind: report
+  categories:
+  - Mésinformation
+  - Intégrité électorale
+  - Politique québécoise et canadienne
+  path: https://mediatechdemocracy.com/en/publications/quebec-misinfo-midelection_2022/
+  link: https://mediatechdemocracy.com/en/publications/quebec-misinfo-midelection_2022/
+  coauthors: Anne Imouza, Maxime Blanchard, Catherine Perron, Chloé Staller, Ella
+    Noel et Kaligirwa Namahoro
+- title: Mis- and Disinformation during the 2021 Canadian Federal Election
+  authors: Aengus Bridgman, Mathieu Lavigne, Melissa Baker, and 15 others
+  venue: Observatoire de l'écosystème médiatique
+  year: '2022'
+  date: '2022-04-04'
+  kind: report
+  categories:
+  - Mésinformation
+  - Intégrité électorale
+  path: https://doi.org/10.66536/federal-election-misinfo_2022
+  link: https://doi.org/10.66536/federal-election-misinfo_2022
+  doi: 10.66536/federal-election-misinfo_2022
+  coauthors: Aengus Bridgman, Melissa Baker et 15 autres
+- title: 'Disinformation Risk Assessment: The Online News Market in Canada'
+  authors: Global Disinformation Index
+  venue: Global Disinformation Index
+  year: '2021'
+  date: '2021-09-30'
+  kind: report
+  categories:
+  - Environnement d'information
+  - Mésinformation
+  path: https://www.disinformationindex.org/country-studies/2021-9-30-the-online-news-market-in-canada/
+  link: https://www.disinformationindex.org/country-studies/2021-9-30-the-online-news-market-in-canada/
+- title: 'Facebook''s News Slop Economy: Inside a foreign-run AI content-farm network
+    monetizing fake news across Canada, the US, the UK, and Europe'
+  authors: Mathieu Lavigne, Mika Desblancs-Patel, David Hobson, Esli Chan, Manon Paquet,
+    and Aengus Bridgman
+  venue: Réseau canadien de recherche sur les médias numériques
+  year: '2026'
+  date: '2026-06-22'
+  kind: report
+  categories:
+  - IA et plateformes
+  - Environnement d'information
+  - Mésinformation
+  path: https://doi.org/10.66536/facebook-news-slop-economy_2026
+  link: https://doi.org/10.66536/facebook-news-slop-economy_2026
+  doi: 10.66536/facebook-news-slop-economy_2026
+  coauthors: Mika Desblancs-Patel, David Hobson, Esli Chan, Manon Paquet et Aengus
+    Bridgman
+- title: 'Canadians'' Perspectives on Governing AI Chatbots: A Policy Brief'
+  authors: Mathieu Lavigne, Helen A. Hayes, Esli Chan, and Chris Ross
+  venue: Centre pour les médias, la technologie et la démocratie
+  year: '2026'
+  date: '2026-02-03'
+  kind: report
+  categories:
+  - IA et plateformes
+  - Opinion publique
+  path: https://doi.org/10.66536/ai-chatbots-perspectives_2026
+  link: https://doi.org/10.66536/ai-chatbots-perspectives_2026
+  doi: 10.66536/ai-chatbots-perspectives_2026
+  coauthors: Helen A. Hayes, Esli Chan et Chris Ross
+- title: 'Incident Debrief: Ripple Effects of the Charlie Kirk Assassination in the
+    Canadian Information Ecosystem'
+  authors: Aengus Bridgman, Eric Merkley, Mathieu Lavigne, and 9 others
+  venue: Réseau canadien de recherche sur les médias numériques
+  year: '2026'
+  date: '2026-01-28'
+  kind: report
+  categories:
+  - Mésinformation
+  - Environnement d'information
+  path: https://doi.org/10.66536/charlie-kirk-debrief_2026
+  link: https://doi.org/10.66536/charlie-kirk-debrief_2026
+  doi: 10.66536/charlie-kirk-debrief_2026
+  coauthors: Aengus Bridgman, Eric Merkley et 9 autres
+- title: Survey on Canadians' Preference for Social Media Age Verification Policies
+  authors: Esli Chan, Brad Wood-MacLean, Taylor Owen, and Mathieu Lavigne
+  venue: Centre pour les médias, la technologie et la démocratie
+  year: '2026'
+  date: '2026-06-17'
+  kind: report
+  categories:
+  - IA et plateformes
+  - Opinion publique
+  path: https://doi.org/10.66536/canadians-preference-age-verification-policies_2026
+  link: https://doi.org/10.66536/canadians-preference-age-verification-policies_2026
+  doi: 10.66536/canadians-preference-age-verification-policies_2026
+  coauthors: Esli Chan, Brad Wood-MacLean et Taylor Owen
+- title: The Sources and Response to Scams Using AI and Fake News Websites
+  authors: Mathieu Lavigne, Alexei Abrahams, Tess Corkery, David Hobson, and Aengus
+    Bridgman
+  venue: Réseau canadien de recherche sur les médias numériques
+  year: '2025'
+  date: '2025-04-25'
+  kind: report
+  categories:
+  - IA et plateformes
+  - Mésinformation
+  path: https://mediatechdemocracy.com/en/publications/ai-scam-sources_2025/
+  link: https://mediatechdemocracy.com/en/publications/ai-scam-sources_2025/
+  coauthors: Alexei Abrahams, Tess Corkery, David Hobson et Aengus Bridgman
+- title: Social Media Platforms Host and Profit from Scams Using AI and Fake News
+    Websites
+  authors: Mathieu Lavigne, Alexei Abrahams, Mahnan Omar, and Aengus Bridgman
+  venue: Réseau canadien de recherche sur les médias numériques
+  year: '2025'
+  date: '2025-04-18'
+  kind: report
+  categories:
+  - IA et plateformes
+  - Mésinformation
+  path: https://mediatechdemocracy.com/en/publications/ai-scam-platforms_2025/
+  link: https://mediatechdemocracy.com/en/publications/ai-scam-platforms_2025/
+  coauthors: Alexei Abrahams, Mahnan Omar et Aengus Bridgman
+- title: 'Campagnes électorales québécoises à l''ère de la désinformation : perceptions
+    partisanes et confiance démocratique'
+  authors: Mathieu Lavigne, Marie-Eve Carignan, and Simon Thibault
+  venue: ''
+  year: '2027'
+  date: '2027-02-01'
+  kind: working-paper
+  categories:
+  - Mésinformation
+  - Confiance envers les institutions
+  - Politique québécoise et canadienne
+  coauthors: Marie-Eve Carignan et Simon Thibault
+- title: 'Le Parti conservateur du Québec : entre polarisation politique et réalignement
+    partisan'
+  authors: Mathieu Lavigne and Éric Bélanger
+  venue: ''
+  year: '2027'
+  date: '2027-01-01'
+  kind: working-paper
+  categories:
+  - Polarisation
+  - Politique québécoise et canadienne
+  coauthors: Éric Bélanger
+- title: 'The News Canadians Actually See: Redefining Political Information in the
+    Digital Age'
+  authors: Mathieu Lavigne and Aengus Bridgman
+  venue: ''
+  year: '2026'
+  date: '2026-10-01'
+  kind: working-paper
+  categories:
+  - Environnement d'information
+  - Politique québécoise et canadienne
+  coauthors: Aengus Bridgman
+- title: Outlet- and Topic-Level Selective Avoidance Limit the Reach of Content Challenging
+    Election Fraud Misinformation
+  authors: Mathieu Lavigne, Brian Fogarty, John Carey, Brendan Nyhan, and Jason Reifler
+  venue: ''
+  year: '2026'
+  date: '2026-01-01'
+  kind: working-paper
+  categories:
+  - Mésinformation
+  - Intégrité électorale
+  - Environnement d'information
+  path: https://business.columbia.edu/sites/default/files-efs/imce-uploads/nyhan-fraud-exposure-online.pdf
+  link: https://business.columbia.edu/sites/default/files-efs/imce-uploads/nyhan-fraud-exposure-online.pdf
+  coauthors: Brian Fogarty, John Carey, Brendan Nyhan et Jason Reifler
+- title: 'The Origin, Prevalence, and Consequences of Issue-Based Affective Polarization:
+    Examining COVID-19 and Climate Change Affects'
+  authors: Mathieu Lavigne and Éric Bélanger
+  venue: ''
+  year: '2025'
+  date: '2025-06-01'
+  kind: working-paper
+  categories:
+  - Polarisation
+  - Opinion publique
+  coauthors: Éric Bélanger
+- title: Une barrière linguistique? How Language Influences the Spread of U.S.-Based
+    COVID-19 Misinformation
+  authors: Mathieu Lavigne and Aengus Bridgman
+  venue: ''
+  year: '2025'
+  date: '2025-03-01'
+  kind: working-paper
+  categories:
+  - Mésinformation
+  - Politique québécoise et canadienne
+  coauthors: Aengus Bridgman
+- title: Reach, Perceived Accuracy, and Engagement With Real and Fake Stories During
+    the 2021 Canadian Federal Election
+  authors: Aengus Bridgman and Mathieu Lavigne
+  venue: ''
+  year: '2024'
+  date: '2024-09-01'
+  kind: working-paper
+  categories:
+  - Mésinformation
+  - Intégrité électorale
+  coauthors: Aengus Bridgman
+- title: 'Fake, Frequent, Harmful: Unpacking and Explaining the Citizen View of Misinformation'
+  authors: Mathieu Lavigne
+  venue: ''
+  year: '2024'
+  date: '2024-06-01'
+  kind: working-paper
+  categories:
+  - Mésinformation
+  - Opinion publique
+

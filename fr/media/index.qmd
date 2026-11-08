@@ -1,0 +1,144 @@
+---
+title: "Dans les médias"
+description: "Une sélection de mes entrevues écrites, radiophoniques et télévisuelles sur la mésinformation, la polarisation, l'IA et l'environnement d'information."
+toc: true
+toc-title: "Sur cette page"
+---
+
+::: {.media-list}
+
+## Presse écrite
+
+[ChatGPT s’appuie sur un site web généré par l’IA pour conseiller les électeurs québécois](https://ici.radio-canada.ca/nouvelle/2286074/ia-lequebecvote-election-2026).
+Radio-Canada. (22 septembre 2026).
+
+[Voici l'entreprise vietnamienne qui pollue votre fil Facebook](https://ici.radio-canada.ca/nouvelle/2281672/htv-network-vietnam-fausses-nouvelles-facebook-ia).
+Radio-Canada. (9 septembre 2026).
+
+[Une première élection québécoise à l'ère de l'intelligence artificielle générative](https://ici.radio-canada.ca/nouvelle/2280386/election-quebec-2026-ia-deepfake).
+Radio-Canada. (6 septembre 2026).
+
+[Élections provinciales : l'IA inquiète les Québécois](https://www.protegez-vous.ca/nouvelles/technologie/elections-2026-ia).
+Protégez-Vous. (2 septembre 2026).
+
+[L'équipe de Mark Carney dépense encore des centaines de dollars par jour en publicités Facebook](https://www.ledevoir.com/politique/canada/1004792/encore-centaines-dollars-jour-promouvoir-mark-carney-facebook).
+Le Devoir. (28 août 2026).
+
+[American election denial ‘seeping in by osmosis’ as right-wing distrust drives falling confidence in Canadian voting](https://www.hilltimes.com/2026/08/27/american-election-denial-seeping-in-by-osmosis-as-right-wing-distrust-drives-falling-confidence-in-canadian-voting/515877/).
+The Hill Times. (27 août 2026).
+
+[Do online influencer posts count as news? Younger Canadians more likely to say yes](https://www.thecanadianpressnews.ca/national/do-online-influencer-posts-count-as-news-younger-canadians-more-likely-to-say-yes/article_3e5b48b0-1402-5101-85d4-7c34839cb854.html).
+The Canadian Press. (30 juin 2026).
+[Publié entre autres par [le Toronto Star](https://www.thestar.com/news/do-online-influencer-posts-count-as-news-younger-canadians-more-likely-to-say-yes/article_57d24985-db75-5380-ad8c-4d7606146d95.html), [CityNews Halifax](https://halifax.citynews.ca/2026/06/30/do-online-influencer-posts-count-as-news-younger-canadians-more-likely-to-say-yes/) et [le Winnipeg Sun](https://www.winnipegsun.com/national-news/do-online-influencer-posts-count-as-news-younger-canadians-more-likely-to-say-yes/article_90c19ff7-8b27-5344-9174-d9ce010b0238.html) ; en français sous le titre « Les jeunes ont du mal à faire la différence entre influenceurs et journalistes » par [La Presse](https://www.lapresse.ca/actualites/2026-06-30/rapport-de-l-observatoire-de-l-ecosysteme-mediatique/les-jeunes-ont-du-mal-a-faire-la-difference-entre-influenceurs-et-journalistes.php), [L'actualité](https://lactualite.com/actualites/les-jeunes-ont-du-mal-a-faire-la-difference-entre-influenceurs-et-journalistes/) et [Le Soleil](https://www.lesoleil.com/arts/2026/06/30/les-jeunes-ont-du-mal-a-faire-la-difference-entre-influenceurs-et-journalistes-C6QQI6EVI5AMNI3SCMKDG7RYIU/).]{.media-also}
+
+Des chercheurs mettent au jour un réseau de fausses nouvelles établi au Vietnam. La Presse Canadienne. (22 juin 2026).
+[Publié entre autres par [La Presse](https://www.lapresse.ca/affaires/techno/2026-06-22/des-chercheurs-mettent-au-jour-un-reseau-de-fausses-nouvelles-etabli-au-vietnam.php) et [L'actualité](https://lactualite.com/actualites/des-chercheurs-mettent-au-jour-un-reseau-de-fausses-nouvelles-etabli-au-vietnam/).]{.media-also}
+
+[Le réseau social X amplifie les discours complotistes au Canada](https://www.sciencepresse.qc.ca/actualites-scientifiques/2026/06/15/reseau-social-amplifie-discours-complotistes-canada).
+Science Presse. (15 juin 2026).
+
+[No, the man arrested at the White House Correspondents' Dinner did not work for the Canadiens](https://www.ctvnews.ca/montreal/article/no-the-man-arrested-at-the-white-house-correspondents-dinner-did-not-work-for-the-canadiens/).
+CTV. (1 mai 2026).
+
+[La désinformation mine-t-elle la confiance des électeurs ?](https://www.ledevoir.com/politique/quebec/964566/desinformation-mine-elle-confiance-electeurs).
+Le Devoir. (21 mars 2026).
+
+[Warren Buffett didn't make this video about Canada-U.S. tensions. It's AI slop — and you're going to see a lot more of it](https://www.thestar.com/news/investigations/warren-buffett-didnt-make-this-video-about-canada-u-s-tensions-its-ai-slop-and/article_de9765ee-c694-4fda-8b2e-37880dc71fbd.html).
+Toronto Star. (1 février 2026).
+
+[No, accused drug lord Ryan Wedding isn't posting pics on Instagram while fleeing the FBI](https://www.cbc.ca/news/world/ryan-wedding-ai-images-instagram-9.7051847).
+CBC News. (20 janvier 2026).
+
+[Sask. retiree warns others after losing $3K to crypto fraud using AI video of prime minister](https://www.cbc.ca/news/canada/saskatchewan/prime-minister-mark-carney-ai-cryptocurrency-scam-prince-albert-sask-9.6975464).
+CBC Saskatchewan. (4 décembre 2025).
+
+[Should Canadians worry about foreign interference in the federal election?](https://www.saltwire.com/newfoundland-labrador/should-canadians-worry-about-foreign-interference-in-the-federal-election)
+The Telegram. (11 avril 2025).
+
+[Polarisation : Qu'est-ce qu'on attend pour se parler ?](https://www.lapresse.ca/dialogue/chroniques/2024-11-20/polarisation/qu-est-ce-qu-on-attend-pour-se-parler.php)
+La Presse. (20 novembre 2024).
+
+[Près du tiers des Québécois exposés à de la mésinformation lors des dernières élections](https://www.ledevoir.com/politique/quebec/785558/pres-du-tiers-des-quebecois-exposes-a-de-la-mesinformation-lors-des-dernieres-elections).
+Le Devoir. (16 mars 2023).
+
+[Elections Alberta recommends legislative changes to tackle misinformation, disinformation](https://www.cbc.ca/news/canada/edmonton/elections-alberta-legislative-changes-misinformation-1.6676664).
+CBC. (7 décembre 2022).
+
+[Près du tiers des partisans du PCQ doutent des derniers résultats électoraux](https://www.ledevoir.com/politique/quebec/767851/30-des-partisans-conservateurs-doutent-des-resultats).
+Le Devoir. (27 octobre 2022).
+
+[Une élection tranquille au chapitre de la désinformation](https://ici.radio-canada.ca/nouvelle/1923331/election-quebec-2022-bilan-desinformation).
+Radio-Canada. (8 octobre 2022).
+
+[Booed in Beauceville: False Facebook post highlights Quebec election online misinformation](https://www.cbc.ca/news/canada/montreal/quebec-election-misinformation-1.6597168).
+CBC. (28 septembre 2022).
+
+'Out of control': Quebec politicians facing repeated intimidation on campaign
+trail. La Presse Canadienne. (14 septembre 2022).
+[Publié par [CBC](https://web.archive.org/web/20250429193726/https://www.cbc.ca/amp/1.6578726), [CTV](https://web.archive.org/web/20220921025142/https://montreal.ctvnews.ca/out-of-control-quebec-politicians-facing-repeated-intimidation-on-campaign-trail-1.6067749), [The Globe and Mail](https://www.theglobeandmail.com/canada/article-quebec-politicians-facing-repeated-intimidation-on-campaign-trail/), [Global News](https://globalnews.ca/news/9127987/quebec-election-campaign-security-threats/), [CityNews](https://ottawa.citynews.ca/national-news/out-of-control-quebec-politicians-facing-repeated-intimidation-on-campaign-trail-5818139), [The Toronto Star](https://www.thestar.com/politics/2022/09/14/out-of-control-quebec-politicians-facing-repeated-intimidation-on-campaign-trail.html) et d'autres médias régionaux.]{.media-also}
+
+## Radio
+
+[La confiance envers le système électoral canadien en déclin](https://ici.radio-canada.ca/ohdio/premiere/emissions/le-cafe-show/segments/rattrapage/2456489/confiance-envers-systeme-electoral-canadien-en-declin).
+Le Café Show, Radio-Canada. (20 août 2026).
+
+[Le journalisme perd des plumes chez les jeunes](https://ici.radio-canada.ca/ohdio/premiere/emissions/Par-ici-l-info/segments/rattrapage/2418906/entrevue).
+Par ici l'info, Radio-Canada. (3 juillet 2026).
+
+[Why are conspiracy theories spreading like wildfire?](https://www.iheart.com/podcast/962-montreal-now-with-aaron-ra-96086768/episode/why-are-conspiracy-theories-spreading-like-325461967/?embed=true).
+CJAD-800AM newstalk. (3 mars 2026).
+
+[Au Canada, une centaine de comptes génèrent 70 % du contenu conspirationniste](https://ici.radio-canada.ca/ohdio/premiere/emissions/toujours-le-matin/segments/rattrapage/2311974/au-canada-une-centaine-comptes-generent-70-contenu-conspirationniste).
+Radio-Canada, Service aux régions AM (SAR). (2 mars 2026).
+
+[Report: ‘X' drives most conspiracy content in Canada](https://www.youtube.com/watch?v=m5KBNpbue1Y).
+Newstalk 580 CFRA Ottawa. (26 février 2026).
+
+[Élection 2025 : Comprendre les risques de désinformation](https://ici.radio-canada.ca/ohdio/premiere/emissions/dans-la-mosaique/segments/rattrapage/2037188/election-2025-comprendre-risques-desinformation).
+Myriam Eddahia, ICI Première. (4 avril 2025).
+
+[Polarisation affective](https://baladoquebec.ca/debout-vm/debout-vm-michel-gailloux-20241121-0750-mathieu-lavigne-polarisation-le-que).
+Michel Gailloux, Radio VM. (22 novembre 2024).
+
+[« Il y a un très petit nombre d'acteurs responsables d'une grande partie de la désinformation »](https://www.qub.ca/radio/balado/mario-dumont?audio=1096002904).
+Mario Dumont, QUB Radio. (16 mars 2023).
+
+[La désinformation sur les réseaux sociaux](https://www.985fm.ca/audio/518458/la-desinformation-sur-les-reseaux-sociaux-entrevue-avec-mathieu-lavigne).
+Le Québec maintenant (Patrick Lagacé), 98,5 FM. (28 octobre 2022).
+
+[Les conséquences et origines de la désinformation en ligne](https://ici.radio-canada.ca/ohdio/premiere/emissions/y-a-pas-deux-matins-pareils/episodes/638579/rattrapage-du-lundi-4-juillet-2022).
+Y'a pas deux matins pareils (Nicolas Haddad), Radio-Canada. (4 juillet 2022).
+
+[La mésinformation en temps d'élection](https://web.archive.org/web/20220504210905/https://ici.radio-canada.ca/ohdio/premiere/emissions/dans-la-mosaique/episodes/625411/rattrapage-du-mercredi-4-mai-2022).
+Dans la mosaïque (Isabelle Ménard), Radio-Canada. (4 mai 2022). *Archivé.*
+
+## Télévision
+
+[Voici l'entreprise vietnamienne qui pollue votre fil Facebook | Décrypteurs](https://www.youtube.com/watch?v=yzFiJnpStk8).
+Décrypteurs, Radio-Canada. (9 septembre 2026).
+
+[Loss in electoral trust in Canada: study](https://globalnews.ca/video/12033092/loss-in-electoral-trust-in-canada-study/).
+Global News. (24 août 2026).
+
+[McGill study finds right-leaning Canadians are losing trust in election system](https://www.cbc.ca/player/play/video/9.7316019).
+CBC News. (21 août 2026).
+
+[‘News slop' accounts targeting Canadians on Facebook with misinformation | Deception Decoded](https://www.ctvnews.ca/video/2026/06/25/news-slop-accounts-targeting-canadians-on-facebook-with-misinformation-deception-decoded/).
+CTV Deception Decoded. (26 juin 2026).
+
+[Researchers studied who's spreading the most conspiracy theories in Canada. Here's what they found](https://www.ctvnews.ca/montreal/article/researchers-studied-whos-spreading-the-most-conspiracy-theories-in-canada-heres-what-they-found/).
+CTV. (27 février 2026).
+
+[Une fausse entrevue de Mark Carney coûte 2800 $ à un Canadien](https://ici.radio-canada.ca/nouvelle/2211811/cbc-mark-carney-hypertrucage-fraude).
+Radio-Canada. (4 décembre 2025).
+
+[How climate misinfo harms — and how you can fight back](https://www.youtube.com/watch?v=cOYLDr0ZTog).
+CBC News: The National, CBC. (13 mars 2023).
+
+[Researchers explore misinformation during Quebec election campaign](https://globalnews.ca/news/9173381/researchers-explore-misinformation-quebec-election-campaign/).
+Global News. (3 octobre 2022).
+
+[2021 Canadian federal election](https://web.archive.org/web/20210921132633/https://ottawa.ctvnews.ca/video?clipId=2284834&binId=1.1164511&playlistPageNum=1).
+CTV Morning Live, CTV. (21 septembre 2021). *Archivé.*
+
+:::

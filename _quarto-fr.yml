@@ -1,0 +1,35 @@
+# French profile. Renders fr/ into _site-fr/, which build.R copies to docs/fr/.
+# Merged over _quarto.yml.  Invoke with: quarto render --profile fr
+
+project:
+  output-dir: _site-fr
+  render:
+    - "fr/**"
+
+# Must be a full IETF tag, not bare "fr": Quarto path-resolves a bare value
+# that happens to match the fr/ directory and emits lang="../../fr".
+lang: fr-CA
+
+website:
+  navbar:
+    # NB: Quarto has no supported way to retarget the navbar brand link, so
+    # it always points at the site root (= the English home page). That is
+    # corrected at runtime in html/bilingual-nav.html.
+    left:
+      - text: "Recherche"
+        href: fr/research/index.qmd
+      - text: "Enseignement"
+        href: fr/teaching/index.qmd
+      - text: "Dans les médias"
+        href: fr/media/index.qmd
+      - text: "CV"
+        href: fr/cv/index.qmd
+    right:
+      - text: "EN"
+        href: /
+
+  page-footer:
+    left: |
+      &#169; Mathieu Lavigne &middot; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
+    right: |
+      [English](/)

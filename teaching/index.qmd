@@ -1,0 +1,50 @@
+---
+title: "Teaching"
+description: "Courses, guest lectures, and teaching assistantships in political science and quantitative methods at McGill, Université de Montréal, and elsewhere."
+body-classes: hide-description
+---
+
+## My courses
+
+**POLI 320: Issues in Canadian Democracy.** I designed and taught this
+third-year undergraduate course at McGill University. Each week focused on a
+different challenge to Canadian democracy and covered the nature of the
+problem, its causes, and the available solutions. Topics included political
+participation, representation, regional grievances, the concentration of
+power, the changing media environment, political marketing, polarization,
+trust in institutions, and disinformation.
+[Syllabus](POLI320_W23.pdf).
+
+## Guest lectures
+
+Invited by Morgane Beaumier (UQTR) to lecture on disinformation in Canada and
+Quebec in *SOL1017: Communication politique, médiatisation et affaires
+publiques*.
+
+Invited by Audrey Gagnon (University of Ottawa) to lecture on misinformation
+in *CMN 3533: Media and Politics*.
+
+Invited by Hwayong Shin (Dartmouth College) to lecture on misinformation from
+a comparative perspective in *GOVT 30: Political Misinformation and Conspiracy
+Theories*.
+
+Invited by Mireille Lalancette (UQTR) to lecture on mis- and disinformation in
+her graduate seminar *COM 6036: Communication politique et analyse des
+messages médiatisés*.
+
+## Teaching assistantships
+
+**POLI 618: Quantitative Analysis.** Graduate seminar on quantitative methods
+at McGill University (Prof. Aaron Erlich). Led a one-hour lab each week.
+
+**Computing and Math Summer Camp.** Intensive R workshop for graduate
+students.
+
+**CEP 1000: Fondements politiques de la communication politique.** Introductory
+political communication course at Université de Montréal (Prof. Frédérick
+Bastien).
+
+## Grading
+
+**POLI 426: Political Parties and Electoral Behaviour in Quebec.**
+Undergraduate course at McGill University (Prof. Éric Bélanger).

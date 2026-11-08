@@ -1,37 +1,23 @@
 ---
-title: "Mathieu Lavigne"
-about:
-  template: trestles
-  image: mathieu.png
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/MathieuLavigne3
-    - icon: bluesky
-      text: Bluesky
-      href: https://bsky.app/profile/mathieulavigne.bsky.social
-    - icon: google
-      text: Scholar
-      href: https://scholar.google.com/citations?user=LZylY84AAAAJ&hl=fr&oi=ao
-    - icon: envelope
-      text: Email
-      href: "mailto:mathieu.lavigne@mcgill.ca"
+title: "Cette page a déménagé"
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=/fr/">
+        <link rel="canonical" href="https://mathieulavigne2.github.io/fr/">
 ---
 
-<section class="about">
+<!--
+Redirect stub. The French section used to live at /Français/, whose accented
+character makes for a fragile, ugly URL. It now lives at /fr/.
 
-Je dirige l'équipe d'analyses de l'[Observatoire de l'écosystème médiatique](https://meo.ca/) à McGill. Je suis aussi membre de la [Chaire de recherche du Québec sur la démocratie, le vivre ensemble et les valeurs communes au Québec](https://neo.uqtr.ca/2024/11/22/chaire-sur-la-democratie-le-vivre-ensemble-et-les-valeurs-communes-au-quebec/){target="_blank"}. Je détiens un doctorat en [science politique](https://www.mcgill.ca/politicalscience/){target="_blank"} de l'Université McGill et ai complété un stage postdoctoral (financé par le CRSH) au [Programme en science sociale quantitative](https://qss.dartmouth.edu/) à Dartmouth College. Je me spécialise dans l'étude de la communication politique, des comportements politiques, de l'opinion publique, de la politique canadienne et québécoise et des méthodologies quantitatives. 
+This file is kept only so existing inbound links keep working. Unlike the
+old capitalised English paths, /Français/ and /fr/ do not collide on a
+case-insensitive filesystem, so this one can be a real 200 + meta-refresh
+rather than being handled by 404.qmd.
+-->
 
-Je m'intéresse principalement à la santé de l'environnement d'information politique et son influence sur les attitudes et comportements politiques des citoyens. Ma recherche porte notamment sur la désinformation, le micro-ciblage politique, l'environnement d'information, les perceptions de l'intégrité électorale, la confiance et la polarisation politique. Dans ma recherche, j'utilise une variété de méthodes, incluant des techniques de sondage (observationnelles et expérimentales), des analyses de données de navigation et de médias sociaux et des analyses de contenu. 
+La section française se trouve maintenant à [**/fr/**](/fr/).
 
-Ma recherche a notamment été publiée dans *Party Politics*, *Journal of Elections, Public Opinion, and Parties*, le *Harvard Kennedy School (HKS) Misinformation Review*, la *Revue canadienne de science politique*, le *Elgar Encyclopedia of Technology and Politics* et l'*IPSA Companion to Political Science*. Je suis aussi co-auteur de plusieurs rapports de recherche. Vous trouverez [ici](../Research/index.qmd){target="_blank"} plus d'information sur mes publications et mes projets de recherche en cours.
-
-En tant que chercheur dont la recherche est financé par de l'argent publique, je crois qu'il est de ma responsabilité de rendre ma recherche accessible pour les décideurs publics et le public. J'essaie de le faire par l'entremise de rapports de recherche, en organisant ou en prenant part à des événements ouverts au public ou en participant à des entrevues médiatiques en français et en anglais. J'ai participé à plusieurs entrevues sur l'environnement d'information, la polarisation et la désinformation au Canada avec les principaux médias canadiens, incluant entre autres: 
-
-**En français:** Radio-Canada, La Presse, Le Devoir, 98.5 FM, TVA Nouvelles, Le Journal de Montréal, QUB Radio et Radio VM.
-
-**En anglais:** CBC, CTV, Global News, City News, The Canadian Press et PNI Atlantic. 
-
-Une sélection d'entrevues est disponible [ici](../Media/index.qmd){target="_blank"}.
-
-</section>
+Vous allez y être redirigé automatiquement.

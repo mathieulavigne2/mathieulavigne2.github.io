@@ -6,3 +6,9 @@
 /.quarto/
 .DS_Store
 **/*.quarto_ipynb
+
+
+# Staging renders; build.R assembles them into docs/ (which IS tracked).
+/_site/
+/_site-en/
+/_site-fr/

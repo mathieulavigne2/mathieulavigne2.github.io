@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ML">
+  <!--
+    Monogram favicon. The letterforms are drawn as paths rather than <text>
+    so they render identically everywhere: a favicon is painted outside the
+    page's own font context, so <text> would fall back to whatever serif the
+    OS happens to have, and the two initials would not match the site.
+    Oxblood #8a2b33 is the site accent.
+  -->
+  <rect width="64" height="64" rx="10" fill="#8a2b33"/>
+  <g fill="#ffffff">
+    <!-- M -->
+    <path d="M12 44V20h5.6l6.1 13.4L29.8 20h5.6v24h-4.6V28.6l-5.1 11h-3.4l-5.1-11V44z"/>
+    <!-- L -->
+    <path d="M39.6 44V20h4.8v19.7H54V44z"/>
+  </g>
+</svg>

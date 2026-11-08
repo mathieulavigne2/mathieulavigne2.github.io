@@ -1,0 +1,74 @@
+---
+title: "Page not found · Page introuvable"
+---
+
+::: {lang="en"}
+The page you are looking for does not exist, or has moved.
+
+Try the [home page](/), [research](/research/), or [CV](/cv/).
+:::
+
+::: {lang="fr"}
+La page que vous cherchez n'existe pas ou a été déplacée.
+
+Essayez la [page d'accueil](/fr/), la [recherche](/fr/research/) ou le [CV](/fr/cv/).
+:::
+
+```{=html}
+<script>
+// Legacy URL handler.
+//
+// The site used to live at capitalised paths (/About/, /CV/, /Media/,
+// /Research/, /Teaching/) and at /Français/. Those are now lowercase, and
+// French lives at /fr/.
+//
+// We cannot ship real redirect pages for the capitalised paths: GitHub Pages
+// is case-sensitive when serving, but Windows is case-insensitive on disk, so
+// the repo cannot contain both about/ and About/. GitHub Pages serves this
+// 404 page for any unmatched path, so we do the redirect here instead.
+//
+// Caveat: this returns HTTP 404 before redirecting. Humans get where they are
+// going; crawlers will treat the old URLs as gone. That is an accepted
+// trade-off, documented in PLAN.md, Phase 2.
+(function () {
+  "use strict";
+
+  var KEY = "legacy-redirect";
+  var path = window.location.pathname;
+
+  // Redirect at most once per target, so a genuinely missing page cannot
+  // loop. Uses sessionStorage rather than a query marker so we do not leave
+  // tracking-looking cruft on a URL that turns out to be valid.
+  var store = null;
+  try {
+    store = window.sessionStorage;
+  } catch (e) {
+    /* private mode or blocked; fall through without loop protection */
+  }
+
+  if (store && store.getItem(KEY) === path) {
+    store.removeItem(KEY);
+    return;
+  }
+
+  var target = null;
+
+  if (/^\/Français\/?$/i.test(path) || /^\/Fran%C3%A7ais\/?$/i.test(path)) {
+    target = "/fr/";
+  } else if (/^\/about(\/(index\.html)?)?$/i.test(path)) {
+    // The About page was removed (its content lives on the home page).
+    target = "/";
+  } else if (/^\/fr\/about(\/(index\.html)?)?$/i.test(path)) {
+    target = "/fr/";
+  } else {
+    var lowered = path.toLowerCase();
+    if (lowered !== path) target = lowered;
+  }
+
+  if (target && target !== path) {
+    if (store) store.setItem(KEY, target);
+    window.location.replace(target);
+  }
+})();
+</script>
+```

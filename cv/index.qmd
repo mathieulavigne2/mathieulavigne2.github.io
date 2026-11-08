@@ -1,0 +1,37 @@
+---
+title: "Curriculum vitae"
+description: "My curriculum vitae. I am Analytical Lead at the Media Ecosystem Observatory, McGill University."
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>#title-block-header .description { display: none; }</style>
+---
+
+<!--
+The old page embedded the PDF in a bare <object>/<embed> and nothing else,
+which renders as a blank box on mobile Safari and Android Chrome - i.e. the CV
+was effectively unavailable to phone visitors, with no download link outside
+the fallback text.
+
+Now the download button comes first and always works. The inline preview is
+progressive enhancement, hidden under 768px by the .cv-embed rule in
+html/theme.scss.
+-->
+
+```{=html}
+<div class="button-row">
+  <a class="btn-download" href="cv.pdf" download>Download CV (PDF)</a>
+  <a class="btn-download" href="cv.pdf" target="_blank" rel="noopener"
+     style="background:transparent;color:#8a2b33 !important;">Open in new tab</a>
+</div>
+```
+
+Last updated May 2026.
+
+```{=html}
+<object class="cv-embed" data="cv.pdf" type="application/pdf">
+  <p>Your browser cannot display PDFs inline.
+     <a href="cv.pdf">Download the PDF</a> instead.</p>
+</object>
+```

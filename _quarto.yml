@@ -1,54 +1,54 @@
+# Shared configuration for both languages.
+#
+# Quarto supports only ONE navbar per render, so the site is rendered twice
+# under two profiles:
+#
+#   quarto render --profile en    -> _site-en/   (English, site root)
+#   quarto render --profile fr    -> _site-fr/   (French,  /fr/)
+#
+# Run build.R to do both and assemble docs/. Profile-specific settings
+# (navbar, language, output dir, render list, footer) live in _quarto-en.yml
+# and _quarto-fr.yml.
+
 project:
   type: website
-  output-dir: docs
+  # Fonts are referenced only from inside compiled CSS, which Quarto cannot
+  # see, so they must be force-copied.
+  resources:
+    - assets/fonts/**
+    # Referenced only from social-card metadata, so likewise invisible to
+    # Quarto's resource scanner.
+    - assets/mathieu.jpg
 
-# website settings
 website:
-  title: "Mathieu Lavigne"                                
-  
-  # start of the navigation bar at the top of the website
-  navbar:
-    # your sub-pages
-    left:
-      - text: "About me"
-        href: About/index.qmd
-      - text: "Research"
-        href: Research/index.qmd
-      - text: "Teaching"
-        href: Teaching/index.qmd
-      - text: "In the news"
-        href: Media/index.qmd
-      - text: "CV"
-        href: CV/index.qmd
-      - text: "En français (SVP!)"
-        href: Français/index.qmd
+  title: "Mathieu Lavigne"
+  site-url: https://mathieulavigne2.github.io
+  favicon: assets/favicon.svg
 
-# Don't touch unless you know what you are doing 
-  search: 
-    location: navbar
-    type: textbox
-  page-footer: 
-    left: |
-      <span class="faux-block">&#169; 2026 Mathieu Lavigne CC BY-SA 4.0</span>
+  # Navbar search is off deliberately. Quarto writes one search index per
+  # render, at the output root, so two language renders produce two
+  # search.json files that collide when assembled. The Research page carries
+  # its own search instead, which is the search that actually matters here.
+  # See PLAN.md, Phase 2, "Site-wide search" for the upgrade path.
+  search: false
 
-preview: 
-    port: 22222
-    browser: true
-    watch-inputs: true
-    navigate: true
-
-execute:
-  freeze: true
+  # Without these, sharing any page on Bluesky, LinkedIn or Slack produces a
+  # bare link with no title, description or image — a real miss for someone
+  # cited in the media as often as Mathieu is.
+  open-graph:
+    image: /assets/mathieu.jpg
+    image-alt: "Mathieu Lavigne"
+  twitter-card:
+    card-style: summary
+    image: /assets/mathieu.jpg
 
 format:
   html:
-    fontsize: 1.1em
-    theme: 
-      - pulse
-      - html/styles.scss
+    theme: html/theme.scss
     toc: false
-    code-link: true
     anchor-sections: true
-    fig-cap-location: margin
-    reference-location: margin
-    footnotes-hover: true
+    # Send external links to a new tab site-wide, so individual pages no
+    # longer need to repeat {target="_blank"} on every link.
+    link-external-newwindow: true
+    link-external-icon: false
+    include-after-body: html/bilingual-nav.html

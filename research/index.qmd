@@ -1,0 +1,113 @@
+---
+title: "Research"
+format:
+  html:
+    include-after-body:
+      - ../html/bilingual-nav.html
+      - ../html/research-search.html
+listing:
+  - id: articles
+    contents: publications.yml
+    include: {kind: article}
+    template: ../html/publication.ejs.md
+    fields: [title, authors, venue, year, categories]
+    template-params:
+      label_read: "Read more"
+      label_replication: "Replication materials"
+      label_with: "with"
+    categories: unnumbered
+    sort: "date desc"
+    page-size: 100
+  - id: chapters
+    contents: publications.yml
+    include: {kind: chapter}
+    template: ../html/publication.ejs.md
+    fields: [title, authors, venue, year, categories]
+    template-params:
+      label_read: "Read more"
+      label_replication: "Replication materials"
+      label_with: "with"
+    categories: unnumbered
+    sort: "date desc"
+    page-size: 100
+  - id: reports
+    contents: publications.yml
+    include: {kind: report}
+    template: ../html/publication.ejs.md
+    fields: [title, authors, venue, year, categories]
+    template-params:
+      label_read: "Read more"
+      label_replication: "Replication materials"
+      label_with: "with"
+    categories: unnumbered
+    sort: "date desc"
+    page-size: 100
+  - id: working-papers
+    contents: publications.yml
+    include: {kind: working-paper}
+    template: ../html/publication.ejs.md
+    fields: [title, authors, venue, year, categories]
+    template-params:
+      label_read: "Read more"
+      label_replication: "Replication materials"
+      label_with: "with"
+    categories: unnumbered
+    sort: "date desc"
+    page-size: 100
+---
+
+Search the list below, or filter it by theme using the categories in the
+margin.
+
+My work is also on [Google Scholar](https://scholar.google.com/citations?user=LZylY84AAAAJ&hl=fr&oi=ao)
+and [ORCID](https://orcid.org/0000-0003-3408-9923).
+
+```{=html}
+<div class="pub-search-bar">
+  <input type="search" id="pub-search" class="pub-search-input"
+         placeholder="Search by title, author, or outlet…"
+         aria-label="Search publications"
+         data-none="No publications match."
+         data-count="{n} publications">
+  <p id="pub-search-status" class="pub-search-status" aria-live="polite"></p>
+</div>
+```
+
+```{=html}
+<nav class="pub-jump" aria-label="Publication types">
+  <ul>
+    <li><a href="#pubs-articles" data-listing="articles">Peer-reviewed articles</a></li>
+    <li><a href="#pubs-chapters" data-listing="chapters">Book chapters and encyclopedia entries</a></li>
+    <li><a href="#pubs-reports" data-listing="reports">Research reports</a></li>
+    <li><a href="#pubs-working-papers" data-listing="working-papers">Working papers</a></li>
+  </ul>
+</nav>
+```
+
+::: {.pub-section}
+## Peer-reviewed articles {#pubs-articles}
+
+:::{#articles}
+:::
+:::
+
+::: {.pub-section}
+## Book chapters and encyclopedia entries {#pubs-chapters}
+
+:::{#chapters}
+:::
+:::
+
+::: {.pub-section}
+## Research reports {#pubs-reports}
+
+:::{#reports}
+:::
+:::
+
+::: {.pub-section}
+## Working papers {#pubs-working-papers}
+
+:::{#working-papers}
+:::
+:::

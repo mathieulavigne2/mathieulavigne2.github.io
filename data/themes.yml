@@ -1,0 +1,45 @@
+# Research theme vocabulary — the facets in the Research page sidebar.
+#
+# Keep this list short. Somewhere between 7 and 10 themes is the sweet spot:
+# fewer and the facets do not discriminate, more and the sidebar turns into
+# noise. Every theme should apply to at least two works.
+#
+# The `id` is what data/publications.yml refers to. The `en` and `fr` values
+# are the labels rendered in the sidebar, so they are also what a reader sees
+# in the URL hash when they click a facet.
+
+- id: misinformation
+  en: "Misinformation"
+  fr: "Mésinformation"
+
+- id: election-integrity
+  en: "Election integrity"
+  fr: "Intégrité électorale"
+
+- id: microtargeting
+  en: "Microtargeting & political advertising"
+  fr: "Microciblage et publicité politique"
+
+- id: polarization
+  en: "Polarization"
+  fr: "Polarisation"
+
+- id: trust
+  en: "Trust in institutions"
+  fr: "Confiance envers les institutions"
+
+- id: information-environment
+  en: "News & information environment"
+  fr: "Environnement d'information"
+
+- id: ai-platforms
+  en: "AI & platforms"
+  fr: "IA et plateformes"
+
+- id: quebec-canada
+  en: "Quebec & Canadian politics"
+  fr: "Politique québécoise et canadienne"
+
+- id: public-opinion
+  en: "Public opinion"
+  fr: "Opinion publique"

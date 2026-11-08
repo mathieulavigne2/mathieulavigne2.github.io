@@ -1,35 +1,46 @@
 ---
 title: "Mathieu Lavigne"
+description: "I study misinformation, polarization, and the health of the political information environment."
 about:
   template: trestles
-  image: mathieu.png
+  image: assets/mathieu.webp
+  image-alt: "Mathieu Lavigne"
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/MathieuLavigne3
-    - icon: bluesky
-      text: Bluesky
-      href: https://bsky.app/profile/mathieulavigne.bsky.social
-    - icon: google
-      text: Scholar
-      href: https://scholar.google.com/citations?user=LZylY84AAAAJ&hl=fr&oi=ao
     - icon: envelope
       text: Email
       href: "mailto:mathieu.lavigne@mcgill.ca"
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/mathieulavigne.bsky.social
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/mathieu-lavigne-70266a32b
+    - icon: mortarboard
+      text: Scholar
+      href: https://scholar.google.com/citations?user=LZylY84AAAAJ&hl=fr&oi=ao
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0003-3408-9923
 ---
 
-<section class="about">
+I am the Analytical Lead at the [Media Ecosystem Observatory](https://mediatechdemocracy.com/en/meo/)
+at McGill University, and a member of the
+[Chaire de recherche du Québec sur la démocratie, le vivre ensemble et les valeurs communes au Québec](https://chaireduquebec-citoyennete.ca/).
+I hold a Ph.D. in [political science](https://www.mcgill.ca/politicalscience/)
+from McGill and completed a postdoctoral fellowship in the
+[Program in Quantitative Social Science](https://qss.dartmouth.edu/) at
+Dartmouth College.
 
-I am leading the Analytical Team at the [Media Ecosystem Observatory](https://meo.ca/) at McGill. I previously was a SSHRC postdoctoral fellow in the [Program in Quantitative Social Science](https://qss.dartmouth.edu/) at Dartmouth College. I hold a Ph.D. in [Political Science](https://www.mcgill.ca/politicalscience/){target="_blank"} from McGill University. I specialize in political communication, political behavior, public opinion, Canadian politics, and quantitative methods. 
+I study the health of the political information environment: what information
+citizens actually encounter, and how it shapes what they believe and how they
+act. Most of my work concerns mis- and disinformation, political
+microtargeting, perceptions of election integrity, trust, and polarization
+in Canada, Quebec, and the United States.
 
-I am particularly interested in the health of the political information environment, with most of my research focusing on the types of information citizens are exposed to and how it shapes their attitudes and behaviors. I have mainly conducted research on mis- and disinformation, political microtargeting, the information environment, perceptions of election integrity, trust, and political polarization. My research builds on a broad range of data, including observational and experimental survey data, news content, web browsing data, and social media data.
+My work draws on surveys, news content, web browsing data, social media data,
+and audits of AI chatbots.
 
-My research has been published in *Party Politics*, the *Journal of Elections, Public Opinion, and Parties*, the *Harvard Kennedy School (HKS) Misinformation Review*, the *Canadian Journal of Political Science*, the *Elgar Encyclopedia of Technology and Politics*, and the *IPSA Companion to Political Science*, among others. I also am the co-author of multiple public facing reports. More information about my publications and ongoing research can be found [here](./Research/index.qmd){target="_blank"}.
+I also spend a good deal of time explaining this research outside the academy,
+in French and in English.
 
-I often provide commentary on misinformation, polarization, and the information environment in Canada's main in French- and English-language media (radio, television, written), including: 
-
-**In English:** CBC, CTV, Global News, City News, The Canadian Press, and PNI Atlantic, among others.
-
-**In French:** Radio-Canada, La Presse, Le Devoir, 98.5FM, TVA Nouvelles, Le Journal de Montréal, QUB Radio, and Radio VM, among others. 
-
-</section>
+[Read my research →](research/index.qmd)

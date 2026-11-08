@@ -1,0 +1,52 @@
+---
+title: "Enseignement"
+description: "Cours, conférences invitées et charges d'auxiliaire d'enseignement en science politique et en méthodes quantitatives à McGill, à l'Université de Montréal et ailleurs."
+body-classes: hide-description
+---
+
+## Mes cours
+
+**POLI 320 : Issues in Canadian Democracy.** J'ai conçu et donné ce cours de
+troisième année de baccalauréat à l'Université McGill. Chaque semaine portait
+sur un défi différent pour la démocratie canadienne et abordait la nature du
+problème, ses causes et les solutions envisageables. Les thèmes discutés
+incluaient notamment la participation politique, la représentation, les griefs
+régionaux, la concentration du pouvoir, l'évolution de l'environnement
+médiatique, le marketing politique, la polarisation, la confiance dans les
+institutions et la désinformation.
+[Plan de cours](../../teaching/POLI320_W23.pdf).
+
+## Conférences invitées
+
+Invité par Morgane Beaumier (UQTR) à donner une conférence sur la
+désinformation au Canada et au Québec dans le cadre du cours
+*SOL1017 : Communication politique, médiatisation et affaires publiques*.
+
+Invité par Audrey Gagnon (Université d'Ottawa) à donner une conférence sur la
+mésinformation dans le cadre du cours *CMN 3533 : Media and Politics*.
+
+Invité par Hwayong Shin (Dartmouth College) à donner une conférence sur la
+mésinformation dans une perspective comparée dans le cadre du cours
+*GOVT 30 : Political Misinformation and Conspiracy Theories*.
+
+Invité par Mireille Lalancette (UQTR) à donner une conférence sur la
+mésinformation et la désinformation dans son séminaire de deuxième cycle
+*COM 6036 : Communication politique et analyse des messages médiatisés*.
+
+## Auxiliaire d'enseignement
+
+**POLI 618 : Quantitative Analysis.** Séminaire de deuxième cycle sur les
+méthodes quantitatives à l'Université McGill (prof. Aaron Erlich).
+Responsable d'un laboratoire d'une heure chaque semaine.
+
+**Computing and Math Summer Camp.** Atelier intensif de R pour les étudiants
+des cycles supérieurs.
+
+**CEP 1000 : Fondements politiques de la communication politique.** Cours
+d'introduction à la communication politique à l'Université de Montréal
+(prof. Frédérick Bastien).
+
+## Correction
+
+**POLI 426 : Political Parties and Electoral Behaviour in Quebec.** Cours de
+premier cycle à l'Université McGill (prof. Éric Bélanger).

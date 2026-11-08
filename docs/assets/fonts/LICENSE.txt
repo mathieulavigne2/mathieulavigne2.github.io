@@ -1,0 +1,9 @@
+Source Serif 4 and Source Sans 3
+Copyright 2014-2023 Adobe (http://www.adobe.com/), with Reserved Font Names
+'Source'. Licensed under the SIL Open Font License, Version 1.1.
+
+Full licence: https://openfontlicense.org/
+
+These files are redistributed here to avoid a third-party request to
+fonts.googleapis.com on every page load. Regenerate with
+tools/fetch-fonts.py.

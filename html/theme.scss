@@ -1,0 +1,604 @@
+/*-- scss:functions --*/
+
+// (none)
+
+/*-- scss:defaults --*/
+
+// ===========================================================================
+// Mathieu Lavigne - site theme
+//
+// Design brief: look considered, not templated. The tells we are avoiding,
+// deliberately and throughout:
+//   * no card grid for publications - they read as bibliographic lines
+//   * no gradients, no glassmorphism, no drop shadows
+//   * one accent colour, used only for links and active state
+//   * no icon badges, no emoji, no hero banner
+//   * typography and white space carry the hierarchy
+//
+// Everything below follows from that. Replaces the previous stock Bootswatch
+// `pulse` (purple) with a teal/orange override, a combination that was almost
+// certainly never chosen on purpose.
+// ===========================================================================
+
+@import "fonts";
+
+// --- Palette ---------------------------------------------------------------
+// Warm off-white rather than pure #fff: less glare, and it makes the oxblood
+// read as considered rather than alarming. Contrast ratios against $bg were
+// checked, not guessed:
+//   ink     16.6:1     muted 6.8:1     accent 8.2:1   (WCAG AA needs 4.5:1)
+
+$bg:            #fcfbf9;
+$surface:       #ffffff;
+$ink:           #1c1b19;
+$ink-muted:     #5c5852;
+$rule:          #e4dfd7;
+$rule-strong:   #cfc8bd;
+$accent:        #8a2b33;   // oxblood
+$accent-soft:   #f3e9e6;
+
+$white:    #ffffff !default;
+$black:    #000000 !default;
+
+$primary:   $accent !default;
+$secondary: $ink-muted !default;
+$light:     $bg !default;
+$dark:      $ink !default;
+
+$body-bg:    $bg;
+$body-color: $ink;
+
+// --- Type ------------------------------------------------------------------
+// Source Sans 3 for body and UI, Source Serif 4 for headings. Both are
+// self-hosted (see tools/fetch-fonts.py) so there is no third-party request
+// on page load.
+
+$font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif: "Source Serif 4", Georgia, "Times New Roman", serif !default;
+$headings-font-family: $font-family-serif;
+
+$font-size-root:    17px;
+$font-size-base:    1rem;
+$line-height-base:  1.65;
+$headings-font-weight: 600;
+$headings-line-height: 1.25;
+$headings-color:    $ink;
+
+// --- Links -----------------------------------------------------------------
+// Underlines stay on. Hover thickens the underline rather than changing hue:
+// a colour jump on hover is the kind of detail that reads as unconsidered.
+
+$link-color:              $accent;
+$link-decoration:         underline;
+$link-hover-color:        $accent;
+$link-hover-decoration:   underline;
+
+// --- Layout ----------------------------------------------------------------
+// ~68 characters of measure. Wider than this and long prose gets tiring.
+
+$grid-body-width:    760px;
+$grid-margin-width:  250px;
+$grid-column-gutter-width: 2rem;
+
+// --- Chrome ----------------------------------------------------------------
+
+$border-color: $rule;
+$border-radius: 3px;
+
+$navbar-bg: $bg;
+$navbar-fg: $ink;
+$navbar-hl: $accent;
+
+$footer-bg: $bg;
+$footer-fg: $ink-muted;
+
+$code-bg: #f4f1ec;
+$code-color: $ink;
+
+$toc-color: $ink-muted;
+$toc-font-size: 0.85rem;
+
+/*-- scss:rules --*/
+
+// --- Base ------------------------------------------------------------------
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: -0.011em;
+}
+
+// Page titles get room beneath them, so the heading reads as a masthead
+// rather than as the first line of the text under it. This applies to every
+// page: the ones with a description (Home, CV, In the news)
+// and the ones where body content follows the title directly (Research, 404).
+h1.title {
+  font-size: 2.1rem;
+  margin-bottom: 1.5rem;
+}
+
+// Keep the description at the same distance as any other first element.
+//
+// NB: this margin does not ADD to h1.title's margin-bottom — the two are
+// adjacent siblings (the wrapping <div> Quarto emits has no border or
+// padding), so they collapse to whichever is larger. Setting the two to the
+// same value is what makes the gap uniform across both kinds of page; a
+// smaller value here would simply do nothing.
+#title-block-header .description {
+  margin-top: 1.5rem;
+}
+
+// ... except on the landing page, where it is hidden.
+//
+// `description` on the home page does double duty: Quarto prints it as a
+// subtitle under the H1 *and* writes it to <meta name="description">,
+// og:description and twitter:description. Deleting the front-matter key
+// would take the search-result snippet and the social-card blurb with it,
+// so the key stays and only the visible copy goes.
+//
+// Scoped by .quarto-about-trestles, which Quarto emits only for a page with
+// an `about:` block — i.e. the two landing pages and nothing else. The
+// title block sits INSIDE that wrapper, so a descendant selector reaches it.
+// visibility/height tricks are avoided deliberately: `display: none` also
+// drops the margin above, which is what keeps the gap under the H1 correct.
+.quarto-about-trestles #title-block-header .description {
+  display: none;
+}
+
+// Same treatment on any other page that opts in with
+// `body-classes: hide-description` in its front matter (Teaching): the
+// metadata keeps its description, the visible subtitle goes.
+.hide-description #title-block-header .description {
+  display: none;
+}
+
+// Give headings room above, so sections read as sections without rules.
+h2 {
+  font-size: 1.4rem;
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid $rule;
+}
+
+h3 {
+  font-size: 1.15rem;
+  margin-top: 2rem;
+}
+
+a {
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-thickness 80ms ease;
+
+  &:hover {
+    text-decoration-thickness: 2px;
+  }
+}
+
+// --- Navbar ----------------------------------------------------------------
+// A hairline rule instead of a coloured bar. The brand is set in the serif so
+// the name reads as a masthead rather than a menu item.
+
+.navbar {
+  border-bottom: 1px solid $rule;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+
+  .navbar-brand {
+    font-family: $font-family-serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  .nav-link {
+    font-size: 0.94rem;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+
+    &.active {
+      color: $accent !important;
+      font-weight: 600;
+    }
+  }
+}
+
+// Language toggle: a small outlined pill, visually distinct from the nav
+// items so it reads as a control rather than another page.
+//
+// The second selector is the no-JS fallback (html/bilingual-nav.html adds
+// .lang-toggle at runtime). It MUST stay scoped to .ms-auto: Bootstrap emits
+// the left and right navbar items as two separate .navbar-nav lists, so an
+// unscoped :last-child also matched the last LEFT item — which turned CV into
+// a pill that read as a language switch.
+.navbar .nav-link.lang-toggle,
+.navbar .navbar-nav.ms-auto .nav-item:last-child .nav-link {
+  border: 1px solid $rule-strong;
+  border-radius: 999px;
+  padding: 0.1rem 0.7rem !important;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-left: 0.5rem;
+
+  &:hover {
+    border-color: $accent;
+    color: $accent !important;
+    text-decoration: none;
+  }
+}
+
+// --- Footer ----------------------------------------------------------------
+
+.nav-footer {
+  border-top: 1px solid $rule !important;
+  margin-top: 4rem;
+  padding-top: 1.25rem;
+  font-size: 0.85rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  min-height: 3em;
+
+  a {
+    color: $ink-muted;
+    text-decoration-color: $rule-strong;
+
+    &:hover { color: $accent; }
+  }
+
+  .faux-block { display: block; padding-bottom: 0.4em; }
+
+  .nav-footer-left,
+  .nav-footer-right,
+  .nav-footer-center {
+    text-align: center;
+    width: 100%;
+    min-height: 2em;
+  }
+
+  @media (min-width: map-get($grid-breakpoints, md)) {
+    .nav-footer-left  { text-align: left; }
+    .nav-footer-right { text-align: right; }
+    .nav-footer-left,
+    .nav-footer-right,
+    .nav-footer-center { flex: 1 1 33%; }
+  }
+}
+
+// --- About / landing -------------------------------------------------------
+// A softly rounded rectangle, not a circle. Circular avatars are the single
+// most template-looking choice available on an academic homepage.
+
+.quarto-about-trestles .about-entity .about-image {
+  border-radius: 6px;
+  max-width: 300px;
+}
+
+.quarto-about-trestles .about-entity .about-links {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+
+  .about-link {
+    color: $ink-muted;
+    border: 1px solid $rule-strong;
+    border-radius: 999px;
+    padding: 0.2rem 0.75rem;
+    font-size: 0.82rem;
+    text-decoration: none;
+
+    &:hover {
+      border-color: $accent;
+      color: $accent;
+    }
+  }
+}
+
+.quarto-about-trestles .about-contents {
+  padding-top: 0.5rem;
+}
+
+// --- Publications ----------------------------------------------------------
+// Bibliographic lines. No cards, no thumbnails, no borders around entries -
+// just a hanging indent and enough vertical rhythm to separate them.
+
+.pub-search-bar {
+  margin: 1.5rem 0 0.5rem;
+}
+
+.pub-search-input {
+  width: 100%;
+  max-width: 30rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 0.5rem 0.75rem;
+  color: $ink;
+  background: $surface;
+  border: 1px solid $rule-strong;
+  border-radius: $border-radius;
+  appearance: none;
+
+  &::placeholder { color: lighten($ink-muted, 18%); }
+
+  &:focus {
+    outline: none;
+    border-color: $accent;
+    box-shadow: 0 0 0 3px $accent-soft;
+  }
+}
+
+.pub-search-status {
+  margin: 0.5rem 0 0;
+  font-size: 0.82rem;
+  color: $ink-muted;
+}
+
+// Jump links to the four publication types, under the search bar.
+.pub-jump {
+  margin: 0.75rem 0 0.5rem;
+  font-size: 0.9rem;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: $accent;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+
+    &:hover, &:focus-visible { border-bottom-color: currentColor; }
+
+    // Set by research-search.html when a search or theme filter leaves the
+    // section empty (the section itself is hidden).
+    &.is-empty {
+      color: $ink-muted;
+      opacity: 0.55;
+      pointer-events: none;
+    }
+  }
+}
+
+// Keep jumped-to headings clear of the sticky navbar.
+.pub-section { scroll-margin-top: 5rem; }
+
+.pub-section[hidden] { display: none; }
+
+.pub-list { margin-top: 0.5rem; }
+
+// Entries are separated by whitespace rather than rules: with four bands each,
+// hairlines every 1.4rem turn the page into a ledger.
+.pub-entry {
+  padding: 1.4rem 0;
+  border-bottom: 1px solid rgba($rule, 0.55);
+
+  &:last-child { border-bottom: 0; }
+}
+
+// The title is the scan target, so it gets the only strong weight in the
+// entry and a full line to itself.
+.pub-title-row {
+  margin-bottom: 0.3rem;
+}
+
+.pub-title {
+  font-family: $font-family-serif;
+  font-size: 1.06rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: $ink;
+  text-decoration: none;
+
+  &:hover {
+    color: $accent;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+  }
+}
+
+// "with A, B, and C" — co-authors only; see R/build-listings.R for why the
+// name that would otherwise open all 27 entries is dropped.
+.pub-byline {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: $ink;
+  margin-bottom: 0.15rem;
+}
+
+.pub-source {
+  font-size: 0.87rem;
+  line-height: 1.5;
+  color: $ink-muted;
+}
+
+.pub-venue { font-style: normal; }
+
+.pub-year { font-variant-numeric: tabular-nums; }
+
+.pub-note { font-style: italic; }
+
+.pub-sep {
+  // Padding rather than margin, so the separator keeps its spacing when the
+  // source line wraps onto a second line.
+  padding: 0 0.4rem;
+  color: $rule-strong;
+}
+
+.pub-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.85rem;
+}
+
+// Soft-filled pills rather than outlined boxes. An outline is one more hard
+// edge in an entry that already has a rule under it, and at this size the
+// border did most of the visual work while the label did none. Filling with a
+// tint instead lets weight and colour carry it, and echoes the pill the
+// language toggle already uses in the navbar.
+// Pills sized to the words inside them: tight padding and no fixed width, so
+// "Read more" stays on one line and the shape hugs the label rather than
+// floating in a large tinted blob.
+.pub-btn {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 0.79rem;
+  font-weight: 600;
+  line-height: 1.35;
+  padding: 0.22rem 0.72rem;
+  border: 0;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 120ms ease, color 120ms ease;
+
+  // Secondary action: accent on the soft tint. Both contrast ratios were
+  // checked against their own backgrounds, not against $bg —
+  //   accent on accent-soft   7.4:1
+  //   white  on accent        8.0:1     (WCAG AA needs 4.5:1)
+  color: $accent;
+  background: $accent-soft;
+
+  &:hover {
+    color: $accent;
+    background: darken($accent-soft, 5%);
+    text-decoration: none;
+  }
+}
+
+// Primary action reverses the pair, which is the whole hierarchy: one solid
+// pill per entry, everything else quiet.
+.pub-btn-primary {
+  color: $surface;
+  background: $accent;
+
+  &:hover {
+    color: $surface;
+    background: darken($accent, 7%);
+  }
+}
+
+// Emitted for List.js only — see the note in html/publication.ejs.md. Keeps
+// search working over co-author names and theme labels that the entry no
+// longer displays.
+//
+// !important because Quarto ships display rules for .listing-categories that
+// outrank a bare class selector. Dropping .quarto-post from the entries takes
+// the current ones out of range, but this element exists solely to stay
+// hidden, so it should not depend on that staying true.
+.pub-hidden { display: none !important; }
+
+// --- Theme facet sidebar ---------------------------------------------------
+
+.quarto-listing-category-title {
+  font-family: $font-family-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: $ink-muted;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid $rule;
+  margin-bottom: 0.5rem;
+}
+
+.quarto-listing-category {
+  font-size: 0.85rem;
+  line-height: 1.35;
+
+  .category {
+    padding: 0.28rem 0;
+    color: $ink-muted;
+    cursor: pointer;
+    border: 0;
+
+    &:hover { color: $accent; }
+
+    &.active {
+      color: $accent;
+      font-weight: 600;
+    }
+  }
+}
+
+// Quarto's default listing chrome we are not using.
+.listing-actions-group,
+.quarto-listing-other-categories { display: none; }
+
+// --- Content ---------------------------------------------------------------
+
+main.content {
+  padding-top: 1.5rem;
+}
+
+// A PDF embedded via <object> is unusable on mobile; the CV page falls back
+// to a download button below this breakpoint.
+.cv-embed {
+  width: 100%;
+  height: 900px;
+  border: 1px solid $rule;
+  border-radius: $border-radius;
+}
+
+@media (max-width: 768px) {
+  .cv-embed { display: none; }
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.25rem 0;
+}
+
+.btn-download {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: $surface !important;
+  background: $accent;
+  border: 1px solid $accent;
+  border-radius: $border-radius;
+  padding: 0.45rem 1rem;
+  text-decoration: none;
+
+  &:hover {
+    background: darken($accent, 6%);
+    color: $surface !important;
+    text-decoration: none;
+  }
+}
+
+// Media page: interview lists are long, so tighten them and mute the metadata.
+.media-list {
+  p { margin-bottom: 0.85rem; }
+}
+
+// Wire stories get one entry, not one per outlet: the original is the entry
+// and the pickups go on this second line. Muted and a size down so the list
+// still scans as one item per interview.
+.media-also {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.85em;
+  color: $ink-muted;
+}
+
+// --- Print -----------------------------------------------------------------
+
+@media print {
+  .navbar, .nav-footer, .pub-search-bar,
+  #quarto-margin-sidebar { display: none !important; }
+  a { text-decoration: none; color: $ink; }
+}

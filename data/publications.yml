@@ -1,0 +1,383 @@
+# ============================================================================
+# CANONICAL PUBLICATION LIST — single source of truth for BOTH languages.
+#
+# R/build-listings.R generates research/publications.yml and
+# fr/research/publications.yml from this file. Never edit those two; they are
+# overwritten on every build.
+#
+# Fields
+#   id            slug, must be unique
+#   kind          article | chapter | report | working-paper
+#                 (drives which section of the Research page it lands in)
+#   date          YYYY-MM-DD, used for sorting. Approximate is fine.
+#   year          display year. Use e.g. "Forthcoming, 2026" via `note`.
+#   authors       display string. The template bolds "Mathieu Lavigne".
+#   title         the title AS PUBLISHED, in whatever language it was
+#                 published in. Never translate it — a cited work has one
+#                 title, and rendering a French gloss of an English article
+#                 makes it unsearchable and uncitable. French-language works
+#                 (e.g. inconfort-indifference-2024) simply carry a French
+#                 `title` in both renders.
+#   title_fr      optional; falls back to `title`. ONLY for a work genuinely
+#                 issued in a separate French edition under its own title.
+#                 Not a translation field. Currently unused.
+#   venue         journal / publisher / series
+#   venue_fr      optional; falls back to `venue`
+#   themes        ids from data/themes.yml
+#   doi           bare DOI, no https://doi.org/ prefix
+#   url           used when there is no DOI, or as an additional landing page
+#   replication   replication files / data
+#   note          short qualifier, e.g. "Forthcoming"
+#   note_fr       optional
+#
+#   verify_doi    set true to have R/build-listings.R flag a DOI as unchecked
+#
+# DOI STATUS — checked 2026-08-06: all 14 DOIs here resolve, including all
+#   nine CMTD-issued 10.66536/* ones (they 302 to mediatechdemocracy.com).
+#   Worth recording why that was ever in doubt: the CMTD codebase sets
+#   `doiRegistered: false` on all 144 of its publications and gates DOI
+#   display on that flag, so its own site suppresses DOIs that are in fact
+#   deposited. The flag lags reality; do not treat it as evidence.
+#   Re-check with tools/check-links.py before publishing.
+# ============================================================================
+
+# ---------------------------------------------------------------- articles --
+
+- id: politicization-misinformation-2026
+  kind: article
+  date: 2026-10-01
+  year: 2026
+  authors: "Mathieu Lavigne"
+  title: "The politicization of attitudes towards misinformation: How ideology shapes epistemic beliefs, normative judgments, and policy support"
+  venue: "Journal of Elections, Public Opinion and Parties"
+  themes: [misinformation, public-opinion, polarization]
+  doi: "10.1080/17457289.2026.2669135"
+  replication: "https://doi.org/10.7910/DVN/XRMB5G"
+
+- id: misinfo-polarization-trust-elections-2026
+  kind: article
+  date: 2026-06-19
+  year: 2026
+  authors: "Mathieu Lavigne, Holly Ann Garnett, and Aengus Bridgman"
+  title: "(Mis)information, Polarization, and Trust in Elections: Longitudinal Evidence from Canada"
+  venue: "Public Opinion Quarterly"
+  themes: [misinformation, election-integrity, trust, polarization]
+  # Publisher DOI, resolves. Was listed as "Forthcoming" on the old site.
+  doi: "10.1093/poq/nfag035"
+  url: "https://academic.oup.com/poq/advance-article/doi/10.1093/poq/nfag035/8711888"
+  replication: "https://doi.org/10.7910/DVN/OGCPBW"
+
+- id: inconfort-indifference-2024
+  kind: article
+  date: 2024-09-01
+  year: 2024
+  authors: "Mathieu Lavigne"
+  title: "L'inconfort ou l'indifférence ? Comprendre l'opposition aux mesures visant à contrer la mésinformation au Québec"
+  venue: "Canadian Journal of Political Science / Revue canadienne de science politique"
+  venue_fr: "Revue canadienne de science politique / Canadian Journal of Political Science"
+  themes: [misinformation, quebec-canada, public-opinion]
+  doi: "10.1017/S000842392400043X"
+  replication: "https://doi.org/10.7910/DVN/EO16LA"
+
+- id: hide-and-seek-2022
+  kind: article
+  date: 2022-05-01
+  year: 2022
+  authors: "Mathieu Lavigne, Éric Bélanger, Richard Nadeau, Jean-François Daoust, and Erick Lachapelle"
+  title: "Hide and seek: The connection between false beliefs and perceptions of government transparency"
+  venue: "Harvard Kennedy School (HKS) Misinformation Review"
+  themes: [misinformation, trust]
+  url: "https://misinforeview.hks.harvard.edu/article/hide-and-seek-the-connection-between-false-beliefs-and-perceptions-of-government-transparency/"
+  replication: "https://doi.org/10.7910/DVN/3CE9GA"
+
+- id: strengthening-ties-2021
+  kind: article
+  date: 2021-01-01
+  year: 2021
+  authors: "Mathieu Lavigne"
+  title: "Strengthening ties: The influence of microtargeting on partisan attitudes and the vote"
+  venue: "Party Politics"
+  themes: [microtargeting]
+  doi: "10.1177/1354068820918387"
+
+# ---------------------------------------------------------------- chapters --
+
+- id: microtargeting-marketing-the-vote-2026
+  kind: chapter
+  date: 2026-12-01
+  year: 2026
+  authors: "Mathieu Lavigne"
+  title: "Microtargeting in Canadian Campaign Advertising"
+  venue: "In Alex Marland, Elizabeth Dubois, and Thierry Giasson (eds.), *Marketing the Vote: Election Strategy and Campaigning in Canada*. UBC Press"
+  venue_fr: "Dans Alex Marland, Elizabeth Dubois et Thierry Giasson (dir.), *Marketing the Vote: Election Strategy and Campaigning in Canada*. UBC Press"
+  themes: [microtargeting, quebec-canada]
+  url: "https://www.ubcpress.ca/marketing-the-vote"
+
+- id: misinformation-ipsa-2025
+  kind: chapter
+  date: 2025-06-01
+  year: 2025
+  authors: "Mathieu Lavigne and Olivier Bergeron-Boutin"
+  title: "Misinformation"
+  venue: "In Daniel Stockemer, Stephen Sawyer, and Audrey Gagnon (eds.), *IPSA Companion to Political Science*. Springer Nature"
+  venue_fr: "Dans Daniel Stockemer, Stephen Sawyer et Audrey Gagnon (dir.), *IPSA Companion to Political Science*. Springer Nature"
+  themes: [misinformation]
+  doi: "10.1007/978-3-032-06918-4_148-1"
+
+- id: polarisation-affective-2024
+  kind: chapter
+  date: 2024-11-01
+  year: 2024
+  authors: "Mathieu Lavigne"
+  title: "Polarisation affective : comprendre nos différences pour apaiser nos différends"
+  venue: "In *L'état du Québec 2025. Sommes-nous une société émotive ?*, edited by Josselyn Guillarmou and Sandra Larochelle. Montréal: INM – Somme toute / Le Devoir, pp. 42–52"
+  venue_fr: "Dans *L'état du Québec 2025. Sommes-nous une société émotive ?*, sous la direction de Josselyn Guillarmou et Sandra Larochelle. Montréal : INM – Somme toute / Le Devoir, p. 42–52"
+  themes: [polarization, quebec-canada]
+  url: "https://inm.qc.ca/produit/letat-du-quebec-2025/"
+
+- id: microtargeting-elgar-2022
+  kind: chapter
+  date: 2022-01-01
+  year: 2022
+  authors: "Mathieu Lavigne"
+  title: "Microtargeting"
+  venue: "In Andrea Ceron (ed.), *Elgar Encyclopedia of Technology and Politics*"
+  venue_fr: "Dans Andrea Ceron (dir.), *Elgar Encyclopedia of Technology and Politics*"
+  themes: [microtargeting]
+  url: "https://www.elgaronline.com/edcollchap/book/9781800374263/b-9781800374263.microtargeting.lavigne.xml"
+
+# ----------------------------------------------------------------- reports --
+
+- id: qc-election-baseline-2026
+  kind: report
+  date: 2026-08-27
+  year: 2026
+  authors: "Mathieu Lavigne, Mika Desblancs-Patel, Jérémie Drouin, and Manon Paquet"
+  title: "The Information Environment on the Eve of the 2026 Quebec Election"
+  # A genuine separate French edition under its own title (the case title_fr
+  # is reserved for), not a translation: both are published at the same DOI,
+  # at /en/ and /fr/ on mediatechdemocracy.com.
+  title_fr: "L'environnement d'information à l'aube de l'élection québécoise de 2026"
+  venue: "Media Ecosystem Observatory"
+  venue_fr: "Observatoire de l'écosystème médiatique"
+  themes: [trust, quebec-canada, ai-platforms, information-environment, election-integrity]
+  doi: "10.66536/qc-election-baseline_2026"
+
+- id: news-canadians-actually-see-2026
+  kind: report
+  date: 2026-06-30
+  year: 2026
+  authors: "Mathieu Lavigne, Saewon Park, Esli Chan, Sara Parker, Chris Ross, Junyan Zhu, Zeynep Pehlivan, and Aengus Bridgman"
+  title: "The News Canadians Actually See: Redefining Political Information in the Digital Age"
+  venue: "Media Ecosystem Observatory"
+  venue_fr: "Observatoire de l'écosystème médiatique"
+  themes: [information-environment, quebec-canada]
+  doi: "10.66536/news-canadians-actually-see_2026"
+
+- id: conspiracy-distrust-2026
+  kind: report
+  date: 2026-02-23
+  year: 2026
+  authors: "Mika Desblancs-Patel, Esli Chan, Mathieu Lavigne, Chris Ross, David Hobson, Ben Steel, and Helen A. Hayes"
+  title: "Conspiratorial Claims and Institutional Distrust in Canada's Online Ecosystem"
+  venue: "Media Ecosystem Observatory"
+  venue_fr: "Observatoire de l'écosystème médiatique"
+  themes: [misinformation, trust]
+  doi: "10.66536/conspiracy-distrust_2026"
+
+- id: federal-election-2025
+  kind: report
+  date: 2025-06-01
+  year: 2025
+  authors: "Aengus Bridgman, Jennie Phillips, Alexei Abrahams, and 32 others (including Mathieu Lavigne)"
+  title: "The Canadian Information Ecosystem during the 2025 Federal Election"
+  venue: "Media Ecosystem Observatory / Canadian Digital Media Research Network"
+  venue_fr: "Observatoire de l'écosystème médiatique / Réseau canadien de recherche sur les médias numériques"
+  themes: [election-integrity, misinformation, information-environment]
+  doi: "10.66536/federal-election_2025"
+
+- id: quebec-election-misinfo-2023
+  kind: report
+  date: 2023-03-15
+  year: 2023
+  authors: "Mathieu Lavigne, Maxime Blanchard, Anne Imouza, Aengus Bridgman, Chloé Staller, Kaligirwa Namahoro, Ella Noel, Catherine Perron, Phaedra de Saint-Rome, and Taylor Owen"
+  title: "Analyse du rôle de la mésinformation lors de l'élection provinciale québécoise de 2022"
+  venue: "Media Ecosystem Observatory"
+  venue_fr: "Observatoire de l'écosystème médiatique"
+  themes: [misinformation, election-integrity, quebec-canada]
+  doi: "10.66536/quebec-election-misinfo_2023"
+  # OSF preprint DOI, resolves independently of the CMTD one.
+  url: "https://doi.org/10.31219/osf.io/wam45"
+
+- id: quebec-misinfo-midelection-2022
+  kind: report
+  date: 2022-09-23
+  year: 2022
+  authors: "Mathieu Lavigne, Anne Imouza, Maxime Blanchard, Catherine Perron, Chloé Staller, Ella Noel, and Kaligirwa Namahoro"
+  title: "The Role of Misinformation in the 2022 Quebec Election: Mid-Election Analysis"
+  venue: "Media Ecosystem Observatory"
+  venue_fr: "Observatoire de l'écosystème médiatique"
+  themes: [misinformation, election-integrity, quebec-canada]
+  # No DOI minted for this one; link the publisher landing page instead.
+  url: "https://mediatechdemocracy.com/en/publications/quebec-misinfo-midelection_2022/"
+
+- id: federal-election-misinfo-2022
+  kind: report
+  date: 2022-04-04
+  year: 2022
+  authors: "Aengus Bridgman, Mathieu Lavigne, Melissa Baker, and 15 others"
+  title: "Mis- and Disinformation during the 2021 Canadian Federal Election"
+  venue: "Media Ecosystem Observatory"
+  venue_fr: "Observatoire de l'écosystème médiatique"
+  themes: [misinformation, election-integrity]
+  doi: "10.66536/federal-election-misinfo_2022"
+  url: "https://doi.org/10.31219/osf.io/ubfmx"
+
+- id: gdi-online-news-market-2021
+  kind: report
+  date: 2021-09-30
+  year: 2021
+  authors: "Global Disinformation Index"
+  title: "Disinformation Risk Assessment: The Online News Market in Canada"
+  venue: "Global Disinformation Index"
+  themes: [information-environment, misinformation]
+  url: "https://www.disinformationindex.org/country-studies/2021-9-30-the-online-news-market-in-canada/"
+  # NOTE: the old site linked "Aussi disponible en français" to this same
+  # English URL. Find the real French page or drop the claim.
+
+# ---- more reports (policy briefs and incident debriefs, same section) ------
+
+- id: facebook-news-slop-economy-2026
+  kind: report
+  date: 2026-06-22
+  year: 2026
+  authors: "Mathieu Lavigne, Mika Desblancs-Patel, David Hobson, Esli Chan, Manon Paquet, and Aengus Bridgman"
+  title: "Facebook's News Slop Economy: Inside a foreign-run AI content-farm network monetizing fake news across Canada, the US, the UK, and Europe"
+  venue: "Canadian Digital Media Research Network"
+  venue_fr: "Réseau canadien de recherche sur les médias numériques"
+  themes: [ai-platforms, information-environment, misinformation]
+  doi: "10.66536/facebook-news-slop-economy_2026"
+
+- id: ai-chatbots-perspectives-2026
+  kind: report
+  date: 2026-02-03
+  year: 2026
+  authors: "Mathieu Lavigne, Helen A. Hayes, Esli Chan, and Chris Ross"
+  title: "Canadians' Perspectives on Governing AI Chatbots: A Policy Brief"
+  venue: "Centre for Media, Technology and Democracy"
+  venue_fr: "Centre pour les médias, la technologie et la démocratie"
+  themes: [ai-platforms, public-opinion]
+  doi: "10.66536/ai-chatbots-perspectives_2026"
+
+- id: charlie-kirk-debrief-2026
+  kind: report
+  date: 2026-01-28
+  year: 2026
+  authors: "Aengus Bridgman, Eric Merkley, Mathieu Lavigne, and 9 others"
+  title: "Incident Debrief: Ripple Effects of the Charlie Kirk Assassination in the Canadian Information Ecosystem"
+  venue: "Canadian Digital Media Research Network"
+  venue_fr: "Réseau canadien de recherche sur les médias numériques"
+  themes: [misinformation, information-environment]
+  doi: "10.66536/charlie-kirk-debrief_2026"
+
+- id: age-verification-2026
+  kind: report
+  date: 2026-06-17
+  year: 2026
+  authors: "Esli Chan, Brad Wood-MacLean, Taylor Owen, and Mathieu Lavigne"
+  title: "Survey on Canadians' Preference for Social Media Age Verification Policies"
+  venue: "Centre for Media, Technology and Democracy"
+  venue_fr: "Centre pour les médias, la technologie et la démocratie"
+  themes: [ai-platforms, public-opinion]
+  doi: "10.66536/canadians-preference-age-verification-policies_2026"
+
+- id: ai-scam-sources-2025
+  kind: report
+  date: 2025-04-25
+  year: 2025
+  authors: "Mathieu Lavigne, Alexei Abrahams, Tess Corkery, David Hobson, and Aengus Bridgman"
+  title: "The Sources and Response to Scams Using AI and Fake News Websites"
+  venue: "Canadian Digital Media Research Network"
+  venue_fr: "Réseau canadien de recherche sur les médias numériques"
+  themes: [ai-platforms, misinformation]
+  # No DOI minted yet (slated in CMTD's crossref-doi-list.txt).
+  url: "https://mediatechdemocracy.com/en/publications/ai-scam-sources_2025/"
+
+- id: ai-scam-platforms-2025
+  kind: report
+  date: 2025-04-18
+  year: 2025
+  authors: "Mathieu Lavigne, Alexei Abrahams, Mahnan Omar, and Aengus Bridgman"
+  title: "Social Media Platforms Host and Profit from Scams Using AI and Fake News Websites"
+  venue: "Canadian Digital Media Research Network"
+  venue_fr: "Réseau canadien de recherche sur les médias numériques"
+  themes: [ai-platforms, misinformation]
+  # No DOI minted yet.
+  url: "https://mediatechdemocracy.com/en/publications/ai-scam-platforms_2025/"
+
+# ---------------------------------------------------------- working papers --
+
+- id: wp-campagnes-desinformation
+  kind: working-paper
+  date: 2027-02-01
+  year: 2027
+  authors: "Mathieu Lavigne, Marie-Eve Carignan, and Simon Thibault"
+  title: "Campagnes électorales québécoises à l'ère de la désinformation : perceptions partisanes et confiance démocratique"
+  themes: [misinformation, trust, quebec-canada]
+
+- id: wp-parti-conservateur-quebec
+  kind: working-paper
+  date: 2027-01-01
+  year: 2027
+  authors: "Mathieu Lavigne and Éric Bélanger"
+  title: "Le Parti conservateur du Québec : entre polarisation politique et réalignement partisan"
+  themes: [polarization, quebec-canada]
+
+- id: wp-news-canadians-actually-see
+  kind: working-paper
+  date: 2026-10-01
+  year: 2026
+  authors: "Mathieu Lavigne and Aengus Bridgman"
+  title: "The News Canadians Actually See: Redefining Political Information in the Digital Age"
+  themes: [information-environment, quebec-canada]
+
+- id: wp-selective-avoidance
+  kind: working-paper
+  date: 2026-01-01
+  year: 2026
+  authors: "Mathieu Lavigne, Brian Fogarty, John Carey, Brendan Nyhan, and Jason Reifler"
+  title: "Outlet- and Topic-Level Selective Avoidance Limit the Reach of Content Challenging Election Fraud Misinformation"
+  themes: [misinformation, election-integrity, information-environment]
+  url: "https://business.columbia.edu/sites/default/files-efs/imce-uploads/nyhan-fraud-exposure-online.pdf"
+
+- id: wp-issue-based-polarization
+  kind: working-paper
+  date: 2025-06-01
+  year: 2025
+  authors: "Mathieu Lavigne and Éric Bélanger"
+  title: "The Origin, Prevalence, and Consequences of Issue-Based Affective Polarization: Examining COVID-19 and Climate Change Affects"
+  themes: [polarization, public-opinion]
+
+- id: wp-barriere-linguistique
+  kind: working-paper
+  date: 2025-03-01
+  year: 2025
+  authors: "Mathieu Lavigne and Aengus Bridgman"
+  title: "Une barrière linguistique? How Language Influences the Spread of U.S.-Based COVID-19 Misinformation"
+  themes: [misinformation, quebec-canada]
+
+- id: wp-reach-perceived-accuracy
+  kind: working-paper
+  date: 2024-09-01
+  year: 2024
+  authors: "Aengus Bridgman and Mathieu Lavigne"
+  title: "Reach, Perceived Accuracy, and Engagement With Real and Fake Stories During the 2021 Canadian Federal Election"
+  themes: [misinformation, election-integrity]
+
+- id: wp-fake-frequent-harmful
+  kind: working-paper
+  date: 2024-06-01
+  year: 2024
+  authors: "Mathieu Lavigne"
+  title: "Fake, Frequent, Harmful: Unpacking and Explaining the Citizen View of Misinformation"
+  themes: [misinformation, public-opinion]
