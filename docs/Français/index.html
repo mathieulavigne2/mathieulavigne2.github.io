@@ -158,78 +158,151 @@ rather than being handled by 404.qmd.
 
 </main> <!-- /main -->
 <script>
+
 // Bilingual navigation fixes, applied at runtime.
+
 //
+
 // Two things Quarto cannot express in config for a two-profile site:
+
 //
+
 //   1. The language toggle. The navbar item is authored with a static href
+
 //      (the other language's home page). This rewrites it to the mirror of
+
 //      the CURRENT page, so switching language from /research/ lands on
+
 //      /fr/research/ instead of dumping you on the home page.
+
 //
+
 //   2. The navbar brand. Quarto always points it at the site root, which on
+
 //      a French page means bouncing the reader into English.
+
 //
+
 // (1) works because the two trees use identical slugs: every English page at
+
 // /x/ has a French counterpart at /fr/x/. Keep it that way — if you ever
+
 // translate a slug, the toggle will start producing 404s.
+
 //
+
 // Both are progressive enhancements: the server-rendered hrefs are already
+
 // valid, just less precise.
+
 (function () {
+
   "use strict";
 
+
+
   function isFrench(path) {
+
     return path === "/fr" || path.indexOf("/fr/") === 0;
+
   }
+
+
 
   function mirrorPath(path) {
+
     return isFrench(path)
+
       ? path.replace(/^\/fr/, "") || "/"
+
       : "/fr" + path;
+
   }
+
+
 
   function findToggle(nav) {
+
     var links = nav.querySelectorAll("a");
+
     for (var i = 0; i < links.length; i++) {
+
       var label = (links[i].textContent || "").trim().toUpperCase();
+
       if (label === "FR" || label === "EN") return links[i];
+
     }
+
     return null;
+
   }
 
+
+
   document.addEventListener("DOMContentLoaded", function () {
+
     var nav = document.querySelector("#quarto-header .navbar") ||
+
               document.querySelector(".navbar");
+
     if (!nav) return;
+
+
 
     var path = window.location.pathname;
 
+
+
     // 1. Language toggle
+
     var toggle = findToggle(nav);
+
     if (toggle) {
+
       var target = mirrorPath(path);
+
       toggle.setAttribute("href", target);
+
       toggle.setAttribute("hreflang", isFrench(target) ? "fr-CA" : "en-CA");
+
       toggle.setAttribute(
+
         "aria-label",
+
         isFrench(target)
+
           ? "Voir cette page en français"
+
           : "View this page in English"
+
       );
+
       toggle.classList.add("lang-toggle");
+
     }
 
+
+
     // 2. Navbar brand: keep French readers in French
+
     if (isFrench(path)) {
+
       var brand = nav.querySelector(".navbar-brand");
+
       if (brand) brand.setAttribute("href", "/fr/");
+
       var container = nav.querySelector(".navbar-brand-container > a");
+
       if (container) container.setAttribute("href", "/fr/");
+
     }
+
   });
+
 })();
+
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

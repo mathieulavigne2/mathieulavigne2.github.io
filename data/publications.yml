@@ -247,6 +247,19 @@
 
 # ---- more reports (policy briefs and incident debriefs, same section) ------
 
+- id: stolen-faces-2026
+  kind: report
+  date: 2026-11-12
+  year: 2026
+  authors: "Aengus Bridgman, Esli Chan, David Hobson, Sequoia Kim, Mathieu Lavigne, Manon Paquet, Chris Ross, and Ben Steel"
+  title: "Stolen Faces: An Inauthentic TikTok and Instagram Network Inflaming the U.S.–Canada Trade War"
+  venue: "Centre for Media, Technology and Democracy"
+  venue_fr: "Centre pour les médias, la technologie et la démocratie"
+  themes: [ai-platforms, misinformation, information-environment]
+  # Incident report. EN and FR landing pages share this DOI (FR page body is
+  # in English): /en/ and /fr/publications/stolen-faces_2026/.
+  doi: "10.66536/stolen-faces_2026"
+
 - id: facebook-news-slop-economy-2026
   kind: report
   date: 2026-06-22
